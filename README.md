@@ -127,7 +127,7 @@ Contributions of new application icons, bug reports, and design refinements are 
 ## License & Trademark Notice
 
 ### License
-Kiwori Icons is licensed under the [GNU General Public License v3.0 (GPL-3.0)](LICENSE).
+Kiwori Icons is licensed under the [GNU General Public License v3.0 (GPL-3.0)](LICENSE.md).
 
 ### Trademark & Non-Affiliation Notice
 All third-party product names, logos, brands, and registered trademarks depicted or referenced within this icon theme remain the property of their respective owners. Their inclusion serves strictly for Linux desktop interoperability and integration under fair use, and does not imply sponsorship, affiliation, or endorsement.
