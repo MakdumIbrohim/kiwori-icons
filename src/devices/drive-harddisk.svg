@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="hdd_casing" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4B5668"/>
+      <stop offset="100%" stop-color="#2D3542"/>
+    </linearGradient>
+    <linearGradient id="platter_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="50%" stop-color="#CBD5E1"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Drive Casing Base -->
+  <rect x="36" y="18" width="184" height="220" rx="36" fill="url(#hdd_casing)" stroke="#171717" stroke-width="14" stroke-linejoin="round"/>
+
+  <!-- Casing Top Highlight -->
+  <path d="M 64 30 L 192 30" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Circular Disk Platter Window -->
+  <circle cx="128" cy="116" r="68" fill="url(#platter_grad)" stroke="#171717" stroke-width="12"/>
+  <!-- Platter Center Spindle -->
+  <circle cx="128" cy="116" r="24" fill="#64748B" stroke="#171717" stroke-width="8"/>
+  <circle cx="128" cy="116" r="10" fill="#171717"/>
+
+  <!-- Read/Write Head Actuator Arm -->
+  <path d="M 180 178 L 140 128 L 134 132 L 172 184 Z" fill="#FFAA6B" stroke="#171717" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="180" cy="180" r="14" fill="#FFE477" stroke="#171717" stroke-width="8"/>
+
+  <!-- Status LED Lights (Bottom) -->
+  <circle cx="70" cy="208" r="8" fill="#5ED8D2" stroke="#171717" stroke-width="5"/>
+  <circle cx="94" cy="208" r="8" fill="#73D69A" stroke="#171717" stroke-width="5"/>
+  <line x1="130" y1="208" x2="190" y2="208" stroke="#171717" stroke-width="8" stroke-linecap="round"/>
+</svg>

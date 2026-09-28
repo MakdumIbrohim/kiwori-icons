@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="trash_can" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7B8CA6"/>
+      <stop offset="100%" stop-color="#556277"/>
+    </linearGradient>
+    <linearGradient id="lid_grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8F9FB8"/>
+      <stop offset="100%" stop-color="#64738B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Side Handle Left -->
+  <path d="M 44 116 C 30 116, 24 130, 24 142 C 24 154, 30 168, 44 168" fill="none" stroke="#171717" stroke-width="12" stroke-linecap="round"/>
+  <!-- Side Handle Right -->
+  <path d="M 212 116 C 226 116, 232 130, 232 142 C 232 154, 226 168, 212 168" fill="none" stroke="#171717" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Overflowing Trash Items (Rendered before lid and can front) -->
+  <!-- Crumpled paper blue -->
+  <path d="M 68 80 L 52 46 L 82 34 L 100 58 Z" fill="#65C7FF" stroke="#171717" stroke-width="10" stroke-linejoin="round"/>
+  <!-- Crumpled paper pink/red -->
+  <path d="M 120 70 L 142 38 L 176 46 L 160 76 Z" fill="#FF8FB1" stroke="#171717" stroke-width="10" stroke-linejoin="round"/>
+  <!-- Big crumpled paper white -->
+  <path d="M 84 66 L 98 28 L 138 24 L 144 62 L 110 74 Z" fill="#FFFFFF" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
+  <!-- Yellow banana peel / scrap -->
+  <path d="M 152 74 Q 180 50 196 68 Q 176 76 156 86 Z" fill="#FFE477" stroke="#171717" stroke-width="9" stroke-linejoin="round"/>
+
+  <!-- Can Body (Tapered Bucket) -->
+  <path d="M 48 76
+           L 68 224
+           C 70 238, 82 246, 96 246
+           L 160 246
+           C 174 246, 186 238, 188 224
+           L 208 76 Z"
+        fill="url(#trash_can)" stroke="#171717" stroke-width="14" stroke-linejoin="round"/>
+
+  <!-- Vertical Ribs Detail -->
+  <line x1="88" y1="96" x2="100" y2="226" stroke="#171717" stroke-width="10" stroke-linecap="round"/>
+  <line x1="128" y1="96" x2="128" y2="226" stroke="#171717" stroke-width="10" stroke-linecap="round"/>
+  <line x1="168" y1="96" x2="156" y2="226" stroke="#171717" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Front Rim Lip -->
+  <path d="M 44 76 L 212 76" stroke="#171717" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- Tilted Lid Floating over trash -->
+  <g transform="translate(136, 36) rotate(-16)">
+    <!-- Lid Handle -->
+    <path d="M -24 -14 L -24 -28 C -24 -36, -14 -40, 0 -40 C 14 -40, 24 -36, 24 -28 L 24 -14" fill="none" stroke="#171717" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Lid Rim -->
+    <rect x="-86" y="-14" width="172" height="24" rx="9" fill="url(#lid_grad)" stroke="#171717" stroke-width="12" stroke-linejoin="round"/>
+    <line x1="-72" y1="-6" x2="72" y2="-6" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  </g>
+</svg>
