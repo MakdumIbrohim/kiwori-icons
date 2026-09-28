@@ -45,9 +45,14 @@ done
 
 log_info "Total icons synchronized: $COPIED_COUNT"
 
-# 4. Validate build output
+# 4. Ensure Kiwori-Dark symlinks are in place
+if [[ -d "$ROOT_DIR/theme/Kiwori-Dark" ]]; then
+    ln -sfn ../Kiwori/scalable "$ROOT_DIR/theme/Kiwori-Dark/scalable"
+fi
+
+# 5. Validate build output
 log_info "Executing build validation suite..."
 "$ROOT_DIR/scripts/validate.sh"
 
 log_pass "Kiwori Icons build completed successfully."
-echo "Output: $THEME_DIR"
+echo "Output: $THEME_DIR & $ROOT_DIR/theme/Kiwori-Dark"

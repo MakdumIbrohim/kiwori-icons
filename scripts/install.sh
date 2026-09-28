@@ -34,13 +34,15 @@ if [[ "$SYSTEM_INSTALL" == true ]]; then
         exit 1
     fi
     TARGET_DIR="/usr/share/icons/$THEME_NAME"
+    TARGET_DARK_DIR="/usr/share/icons/${THEME_NAME}-Dark"
     BASE_DIR="/usr/share/icons"
 else
     TARGET_DIR="$HOME/.local/share/icons/$THEME_NAME"
+    TARGET_DARK_DIR="$HOME/.local/share/icons/${THEME_NAME}-Dark"
     BASE_DIR="$HOME/.local/share/icons"
 fi
 
-echo "=== Installing $THEME_NAME Icons ==="
+echo "=== Installing $THEME_NAME & ${THEME_NAME}-Dark Icons ==="
 
 if [[ ! -d "$SOURCE_DIR" || ! -f "$SOURCE_DIR/index.theme" ]]; then
     echo "Notice: theme/Kiwori is not built yet. Executing build..."
@@ -49,16 +51,23 @@ fi
 
 mkdir -p "$BASE_DIR"
 
-echo "Removing previous version at $TARGET_DIR..."
-rm -rf "$TARGET_DIR"
+echo "Removing previous versions..."
+rm -rf "$TARGET_DIR" "$TARGET_DARK_DIR"
 
-echo "Copying theme files to $TARGET_DIR..."
-cp -r "$SOURCE_DIR" "$TARGET_DIR"
+echo "Copying theme files to $BASE_DIR..."
+cp -dr "$ROOT_DIR/theme/Kiwori" "$BASE_DIR/"
+if [[ -d "$ROOT_DIR/theme/Kiwori-Dark" ]]; then
+    cp -dr "$ROOT_DIR/theme/Kiwori-Dark" "$BASE_DIR/"
+fi
 
 echo "Updating desktop icon cache..."
-if command -v gtk-update-icon-cache >/dev/null 2>&1; then
-    gtk-update-icon-cache -q -t -f "$TARGET_DIR" || true
-fi
+for dir in "$TARGET_DIR" "$TARGET_DARK_DIR"; do
+    if [[ -d "$dir" ]]; then
+        if command -v gtk-update-icon-cache >/dev/null 2>&1; then
+            gtk-update-icon-cache -q -t -f "$dir" || true
+        fi
+    fi
+done
 
 if command -v kbuildsycoca6 >/dev/null 2>&1; then
     kbuildsycoca6 --noincremental >/dev/null 2>&1 || true
@@ -67,8 +76,11 @@ elif command -v kbuildsycoca5 >/dev/null 2>&1; then
 fi
 
 echo
-echo "Kiwori Icons installed successfully!"
-echo "Location: $TARGET_DIR"
+echo "Kiwori & Kiwori Dark icons installed successfully!"
+echo "Locations:"
+echo "  Standard:  $TARGET_DIR"
+echo "  Dark Mode: $TARGET_DARK_DIR"
 echo
 echo "To activate on KDE Plasma:"
-echo "  System Settings -> Colors & Themes -> Icons -> Select 'Kiwori'"
+echo "  Light theme: System Settings -> Colors & Themes -> Icons -> Select 'Kiwori'"
+echo "  Dark theme:  System Settings -> Colors & Themes -> Icons -> Select 'Kiwori Dark'"
