@@ -6,14 +6,35 @@
     </linearGradient>
   </defs>
 
-  <!-- Squircle Card Base -->
+  <!-- Squircle Base -->
   <rect x="18" y="18" width="220" height="220" rx="56" fill="url(#card_bg)" stroke="#171717" stroke-width="14" stroke-linejoin="round"/>
 
   <!-- Top-left cartoon shine -->
   <path d="M 35 66 A 41 41 0 0 1 66 35" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
 
-  <!-- Glyph -->
+  <!-- Official Glyph with Comic Outline -->
   
-  <text x="128" y="146" font-family="sans-serif" font-weight="900" font-size="52" fill="#FFFFFF" stroke="#171717" stroke-width="12" paint-order="stroke fill" text-anchor="middle">PDF</text>
+  <path d="M 122 166
+           L 122 170
+           C 122 184, 108 190, 94 186
+           C 80 180, 74 166, 74 152
+           C 74 138, 86 138, 100 138
+           L 144 138
+           C 168 138, 180 126, 180 106
+           C 180 84, 166 74, 140 74
+           L 122 74
+           L 122 122"
+        fill="none" stroke="#171717" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 122 166
+           L 122 170
+           C 122 184, 108 190, 94 186
+           C 80 180, 74 166, 74 152
+           C 74 138, 86 138, 100 138
+           L 144 138
+           C 168 138, 180 126, 180 106
+           C 180 84, 166 74, 140 74
+           L 122 74
+           L 122 122"
+        fill="none" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
 
 </svg>
