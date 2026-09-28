@@ -30,19 +30,21 @@ if [[ "$SYSTEM_INSTALL" == true ]]; then
         exit 1
     fi
     TARGET_DIR="/usr/share/icons/$THEME_NAME"
+    TARGET_DARK_DIR="/usr/share/icons/${THEME_NAME}-Dark"
 else
     TARGET_DIR="$HOME/.local/share/icons/$THEME_NAME"
+    TARGET_DARK_DIR="$HOME/.local/share/icons/${THEME_NAME}-Dark"
 fi
 
-echo "=== Uninstalling $THEME_NAME Icons ==="
+echo "=== Uninstalling $THEME_NAME & ${THEME_NAME}-Dark Icons ==="
 
-if [[ ! -d "$TARGET_DIR" ]]; then
+if [[ ! -d "$TARGET_DIR" && ! -d "$TARGET_DARK_DIR" ]]; then
     echo "Theme $THEME_NAME was not found at: $TARGET_DIR"
     exit 0
 fi
 
-echo "Removing $TARGET_DIR..."
-rm -rf "$TARGET_DIR"
+echo "Removing $TARGET_DIR and $TARGET_DARK_DIR..."
+rm -rf "$TARGET_DIR" "$TARGET_DARK_DIR"
 
 echo "Updating desktop icon cache..."
 if command -v kbuildsycoca6 >/dev/null 2>&1; then

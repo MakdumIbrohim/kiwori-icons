@@ -66,7 +66,9 @@ Uninstall:
 ./scripts/uninstall.sh
 ```
 
-Activate: **System Settings → Colors & Themes → Icons → Kiwori → Apply**.
+Activate:
+* Light desktop: **System Settings → Colors & Themes → Icons → Kiwori → Apply**.
+* Dark desktop: **System Settings → Colors & Themes → Icons → Kiwori Dark → Apply**.
 
 ---
 
