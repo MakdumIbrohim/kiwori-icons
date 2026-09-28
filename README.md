@@ -9,7 +9,7 @@
 [![SVG](https://img.shields.io/badge/format-SVG-FF8FB1.svg)]()
 [![Repo Size](https://img.shields.io/github/repo-size/MakdumIbrohim/kiwori-icons.svg)]()
 
-Pastel cartoon icon theme for Linux. Bold `#171717` outlines.
+Pastel cartoon icon theme for Linux.
 
 </div>
 
