@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  
+    <!-- Speaker Body -->
+    <path d="M 30 100
+             L 66 100
+             L 114 60
+             L 114 196
+             L 66 156
+             L 30 156
+             C 22 156, 16 150, 16 142
+             L 16 114
+             C 16 106, 22 100, 30 100 Z"
+          fill="#65C7FF" stroke="#171717" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Sound Wave 1 (Small - Cyan) -->
+  <path d="M 142 102 A 36 36 0 0 1 142 154" fill="none" stroke="#171717" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 142 102 A 36 36 0 0 1 142 154" fill="none" stroke="#5ED8D2" stroke-width="9" stroke-linecap="round"/>
+</svg>
