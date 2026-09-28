@@ -32,7 +32,7 @@ Thank you for your interest in contributing to **Kiwori Icons**!
 
 Before opening a pull request, ensure your icons meet these requirements:
 * [ ] Authored in clean SVG on a `256×256` canvas (`viewBox="0 0 256 256"`).
-* [ ] Follows the Kiwori Design System (`#171717` bold outline, rounded geometry, pastel colors).
+* [ ] Follows the Kiwori Design System: bold `#171717` outline, rounded geometry, and strict adherence to the [Official Color Palette](DESIGN.md#5-official-color-palette).
 * [ ] Application logos remain immediately recognizable.
 * [ ] Contains no embedded raster bitmaps (no base64 `data:image`).
 * [ ] Filename is lowercase with hyphen delimiters and `.svg` extension.

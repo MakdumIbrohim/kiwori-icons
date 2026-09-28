@@ -53,22 +53,39 @@ Construct icons using friendly, soft geometric primitives:
 
 ## 5. Official Color Palette
 
-Reference baseline color palette:
+To ensure absolute visual consistency across community contributions, all icons must adhere strictly to these exact color hex codes.
 
-| Color Name    | Hex Code  | Primary Usage |
-| ------------- | --------- | ------------- |
-| Kiwori Black  | `#171717` | Outlines, contours, glyph lines |
-| Soft White    | `#FFFFFF` | Sticker card bases, highlights |
-| Pastel Pink   | `#FF8FB1` | Social, entertainment, multimedia accents |
-| Pastel Purple | `#B982FF` | Creative tools, developer utilities |
-| Pastel Blue   | `#65C7FF` | Core system tools, web browsers, default folders |
-| Pastel Cyan   | `#5ED8D2` | Messaging, network, transfer utilities |
-| Pastel Green  | `#73D69A` | Audio, productivity, success states |
-| Pastel Yellow | `#FFE477` | Standard folders, warnings, archives |
-| Pastel Orange | `#FFAA6B` | Graphics, warnings, warm UI accents |
-| Pastel Red    | `#FF6B6B` | Error states, recording media, delete actions |
+![Official Color Palette](../preview/palette.png)
 
-*Third-party application icons should adapt their official brand hues to fit the Kiwori pastel balance and bold outline aesthetic.*
+### 5.1 Palette Reference Table
+
+| Hex Code | Role | Description & Usage |
+|---|---|---|
+| `#171717` | **Outline** | Mandatory outline color for ALL outer silhouettes and inner division lines |
+| `#FFFFFF` | Base / Highlight | Base sheets, white highlights, crisp glyphs |
+| `#E4E9F0` | Neutral Tint | Folded corner shading, light gray accents |
+| `#2A2D3A` | Dark Neutral | Dark squircle card background (gradient with `#1E202A`) |
+| `#E58A20` | Folder Base | Folder back tab |
+| `#FFBD4A` | Folder Gradient | Folder front flap top gradient |
+| `#FFA026` | Folder Gradient | Folder front flap bottom gradient |
+| `#FFE6A8` | Folder Highlight | Folder front flap highlight line |
+| `#FF6B6B` | Pastel Red | Delete actions, PDF badge, play button, error states |
+| `#FFAA6B` | Pastel Orange | Archive/ZIP, HTML brackets, warm UI accents |
+| `#FFE477` | Pastel Yellow | JSON `{ }`, JavaScript `JS`, active cursor `_`, warning states |
+| `#73D69A` | Pastel Green | Photo frames, sound waves, success states |
+| `#5ED8D2` | Pastel Cyan | Code `< / >`, terminal chevrons, network indicators |
+| `#65C7FF` | Pastel Blue | System tools, CSS badge, browser accents |
+| `#B982FF` | Pastel Purple | Creative tools, developer utilities |
+| `#FF8FB1` | Pastel Pink | Audio notes `♫`, multimedia accents |
+| `#5865F2` | Vivid Blurple | Primary blue-violet solid/gradient fill |
+| `#1DB954` | Vivid Green | Primary vibrant green solid/gradient fill |
+| `#2AABEE` | Vivid Cyan-Blue | Primary vibrant cyan-blue solid/gradient fill |
+| `#D70A53` | Deep Crimson | Primary deep crimson-red solid fill |
+
+### 5.2 Gradient Guidelines
+- Use linear vertical gradients (`x1="0%" y1="0%" x2="0%" y2="100%"`).
+- Gradients must stay subtle (a lighter tint on top to a slightly deeper tone on the bottom). Never use harsh multi-color rainbow ramps.
+- Every color region must be enclosed or separated by `#171717` stroke outlines.
 
 ---
 
