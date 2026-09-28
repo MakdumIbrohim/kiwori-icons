@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
   <!-- 1. Master Page Base Sheet -->
   <path d="M 52 14
-           L 170 14
-           L 222 66
+           L 184 14
+           L 222 52
            L 222 222
            C 222 234, 212 242, 198 242
            L 58 242
@@ -11,24 +11,22 @@
            C 34 20, 44 14, 52 14 Z"
         fill="#FFFFFF" stroke="#171717" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
 
-  <!-- 2. Folded Top-Right Corner -->
-  <path d="M 170 14 L 170 66 L 222 66 Z" fill="#E8EDF2" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
+  <!-- 2. Compact Folded Top-Right Corner (Tucked away, no collision) -->
+  <path d="M 184 14 L 184 52 L 222 52 Z" fill="#E4E9F0" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
 
-  <!-- 3. Bottom Color Accent Bar / Header -->
-  <path d="M 34 176 L 34 222 C 34 234, 44 242, 58 242 L 198 242 C 212 242, 222 234, 222 222 L 222 176 Z"
+  <!-- 3. Bottom Color Accent Bar -->
+  <path d="M 34 180 L 34 222 C 34 234, 44 242, 58 242 L 198 242 C 212 242, 222 234, 222 222 L 222 180 Z"
         fill="#FFAA6B" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
 
-  <!-- 4. Center Emblem / Format Graphic -->
+  <!-- 4. Center Emblem (Centered at y=118, with ample clearance) -->
   
-  <g transform="translate(128, 100)">
-    <!-- Zipper Teeth -->
-    <rect x="-10" y="-50" width="20" height="90" rx="4" fill="#E8EDF2" stroke="#171717" stroke-width="8"/>
-    <line x1="-10" y1="-38" x2="10" y2="-38" stroke="#171717" stroke-width="6"/>
-    <line x1="-10" y1="-22" x2="10" y2="-22" stroke="#171717" stroke-width="6"/>
-    <line x1="-10" y1="-6" x2="10" y2="-6" stroke="#171717" stroke-width="6"/>
-    <line x1="-10" y1="10" x2="10" y2="10" stroke="#171717" stroke-width="6"/>
-    <!-- Zipper Pull Tab -->
-    <rect x="-14" y="24" width="28" height="40" rx="8" fill="#FFE477" stroke="#171717" stroke-width="8"/>
-    <circle cx="0" cy="44" r="6" fill="#171717"/>
+  <g transform="translate(128, 114)">
+    <rect x="-11" y="-52" width="22" height="88" rx="4" fill="#E8EDF2" stroke="#171717" stroke-width="8"/>
+    <line x1="-11" y1="-40" x2="11" y2="-40" stroke="#171717" stroke-width="6"/>
+    <line x1="-11" y1="-24" x2="11" y2="-24" stroke="#171717" stroke-width="6"/>
+    <line x1="-11" y1="-8" x2="11" y2="-8" stroke="#171717" stroke-width="6"/>
+    <line x1="-11" y1="8" x2="11" y2="8" stroke="#171717" stroke-width="6"/>
+    <rect x="-15" y="20" width="30" height="42" rx="8" fill="#FFE477" stroke="#171717" stroke-width="8"/>
+    <circle cx="0" cy="42" r="6" fill="#171717"/>
   </g>
 </svg>
