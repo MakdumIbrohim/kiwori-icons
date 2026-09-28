@@ -4,10 +4,10 @@
 
 # Kiwori Icons
 
-[![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](LICENSE.md)
-[![Linux](https://img.shields.io/badge/platform-Linux-1793D1.svg)]()
-[![SVG](https://img.shields.io/badge/format-SVG-FF8FB1.svg)]()
-[![Repo Size](https://img.shields.io/github/repo-size/MakdumIbrohim/kiwori-icons.svg)]()
+[![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg?logo=gnu&logoColor=white)](LICENSE.md)
+[![Linux](https://img.shields.io/badge/platform-Linux-1793D1.svg?logo=linux&logoColor=white)]()
+[![SVG](https://img.shields.io/badge/format-SVG-FF8FB1.svg?logo=svg&logoColor=white)]()
+[![Repo Size](https://img.shields.io/github/repo-size/MakdumIbrohim/kiwori-icons.svg?logo=github&logoColor=white)]()
 
 Pastel cartoon icon theme for Linux.
 
