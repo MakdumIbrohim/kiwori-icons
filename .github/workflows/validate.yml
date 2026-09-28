@@ -1,0 +1,23 @@
+name: Validate Kiwori Icons
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ dev ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Make scripts executable
+        run: chmod +x scripts/*.sh
+
+      - name: Run Validation Script
+        run: ./scripts/validate.sh
+
+      - name: Run Build Script
+        run: ./scripts/build.sh
