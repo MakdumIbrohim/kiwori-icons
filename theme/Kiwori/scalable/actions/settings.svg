@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <!-- Big gear cyan-teal gradient -->
+    <linearGradient id="big_gear_grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5ED8D2"/>
+      <stop offset="100%" stop-color="#24A39D"/>
+    </linearGradient>
+    <!-- Small gear warm pastel amber-orange gradient -->
+    <linearGradient id="small_gear_grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFAA6B"/>
+      <stop offset="100%" stop-color="#F27A2F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Small Gear (Top-Right, Interlocking Behind) -->
+  <path d="M 229.63 114.74 L 210.79 138.85 L 185.98 130.50 L 185.98 130.50 L 173.93 153.74 L 143.63 149.48 L 138.45 123.82 L 138.45 123.82 L 112.30 125.00 L 100.84 96.64 L 120.47 79.32 L 120.47 79.32 L 106.37 57.26 L 125.21 33.15 L 150.02 41.50 L 150.02 41.50 L 162.07 18.26 L 192.37 22.52 L 197.55 48.18 L 197.55 48.18 L 223.70 47.00 L 235.16 75.36 L 215.53 92.68 L 215.53 92.68 Z" fill="url(#small_gear_grad)" stroke="#171717" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Small Gear Center Hole -->
+  <circle cx="168" cy="86" r="24" fill="#20242E" stroke="#171717" stroke-width="11"/>
+  <!-- Small Gear Highlight -->
+  <path d="M 148 54 C 158 50, 172 50, 184 56" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- 2. Big Gear (Front Bottom-Left) -->
+  <path d="M 195.99 150.36 L 187.19 191.73 L 152.53 197.50 L 152.53 197.50 L 150.41 232.57 L 110.19 245.64 L 87.86 218.51 L 87.86 218.51 L 56.43 234.21 L 25.00 205.92 L 37.33 173.01 L 37.33 173.01 L 8.01 153.64 L 16.81 112.27 L 51.47 106.50 L 51.47 106.50 L 53.59 71.43 L 93.81 58.36 L 116.14 85.49 L 116.14 85.49 L 147.57 69.79 L 179.00 98.08 L 166.67 130.99 L 166.67 130.99 Z" fill="url(#big_gear_grad)" stroke="#171717" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Big Gear Center Hole -->
+  <circle cx="102" cy="152" r="34" fill="#20242E" stroke="#171717" stroke-width="12"/>
+  <!-- Big Gear Highlight Curve -->
+  <path d="M 52 114 C 66 100, 84 94, 104 94" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+</svg>
