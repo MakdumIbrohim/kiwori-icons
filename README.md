@@ -39,7 +39,7 @@ Pastel cartoon icon theme for Linux.
 
 ## Install
 
-User-local install (no root needed):
+Run the interactive installer:
 
 ```bash
 git clone https://github.com/MakdumIbrohim/kiwori-icons.git
@@ -47,11 +47,19 @@ cd kiwori-icons
 ./scripts/install.sh
 ```
 
-Options:
+Installation modes:
 
 ```bash
-./scripts/install.sh --system   # system-wide to /usr/share/icons (needs sudo)
-./scripts/install.sh --help     # show usage
+./scripts/install.sh --local        # 1) Static offline copy from local folder (default)
+./scripts/install.sh --link         # 2) Live git symlink (auto-reflects updates on git pull)
+./scripts/install.sh --git-update   # 3) Pull latest commits from GitHub before installing
+./scripts/install.sh --system       # System-wide install to /usr/share/icons (needs sudo)
+```
+
+Update to latest version anytime:
+
+```bash
+./scripts/update.sh   # or 'make update'
 ```
 
 Switch the start-menu launcher icon (ubuntu, kubuntu, arch, debian, kde, fedora, kiwori):
