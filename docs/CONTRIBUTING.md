@@ -41,6 +41,20 @@ Before opening a pull request, ensure your icons meet these requirements:
 
 ---
 
-## 3. Submitting Icon Requests
+## 3. Submitting Issues & Requests
 
-If you are not a designer but wish to request an icon, please open a GitHub issue using the **Icon Request** template.
+To keep issues organized and easy to track, please use the appropriate title prefix when opening an issue:
+
+| Issue Type | Title Prefix | Description |
+|---|---|---|
+| **Icon Request** | `[ICON REQUEST] <App / Format Name>` | Request a new application, file format, or folder icon |
+| **Bug Report** | `[BUG] <Short Description>` | Report a broken, cut-off, or miscolored icon |
+| **Symlink Request** | `[SYMLINK REQUEST] <App Name>` | Request a missing `.desktop` or Flatpak alias for an existing icon |
+| **Launcher Request** | `[LAUNCHER REQUEST] <Distro Name>` | Request a new distribution start-menu icon for `launchers/` |
+
+### Examples:
+* `[ICON REQUEST] Steam`
+* `[ICON REQUEST] Krita`
+* `[BUG] Volume icon cut off in KDE Plasma panel`
+* `[SYMLINK REQUEST] Firefox Developer Edition (firefox-developer-edition.svg)`
+* `[LAUNCHER REQUEST] Manjaro Linux`
