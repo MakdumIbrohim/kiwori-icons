@@ -1,6 +1,12 @@
 # Kiwori Icons
 
+<p align="center">
+  <img src="preview/mascot.svg" width="180" alt="Kiwori-chan mascot" />
+</p>
+
 Kiwori Icons is an open-source Linux desktop icon theme featuring a **colorful, pastel, playful, cartoon-inspired, rounded, and bold black outline** visual style.
+
+Meet **Kiwori-chan**, project mascot. Chibi anime girl, pastel purple hair, kiwi hairpin, folder in hands.
 
 Designed with a distinct aesthetic identity, Kiwori brings modern cartoon sticker vibrancy to the Linux desktop while keeping application logos and identities instantly recognizable.
 
