@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- 1. Cat Head with Whiskers & Ears -->
+  <g>
+    <!-- Whiskers Left -->
+    <path d="M 60 76 Q 30 68 12 74" fill="none" stroke="#171717" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 58 88 Q 28 92 10 102" fill="none" stroke="#171717" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- Whiskers Right -->
+    <path d="M 196 76 Q 226 68 244 74" fill="none" stroke="#171717" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 198 88 Q 228 92 246 102" fill="none" stroke="#171717" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- Main Cat Head & Ears Silhouette -->
+    <!-- Left ear tip (54, 12), Right ear tip (202, 12) -->
+    <path d="M 68 76
+             C 52 56, 46 28, 54 12
+             C 74 18, 92 34, 106 44
+             C 120 40, 136 40, 150 44
+             C 164 34, 182 18, 202 12
+             C 210 28, 204 56, 188 76
+             C 210 90, 214 114, 204 130
+             L 52 130
+             C 42 114, 46 90, 68 76 Z"
+          fill="#FF9A52" stroke="#171717" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- Inner Ears (Pastel Pink) -->
+    <path d="M 66 28 C 76 34, 84 46, 90 54 C 80 56, 72 50, 66 40 Z" fill="#FF8FB1" stroke="#171717" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M 190 28 C 180 34, 172 46, 166 54 C 176 56, 184 50, 190 40 Z" fill="#FF8FB1" stroke="#171717" stroke-width="7" stroke-linejoin="round"/>
+
+    <!-- Cat Big Eyes (White) -->
+    <ellipse cx="98" cy="74" rx="20" ry="22" fill="#FFFFFF" stroke="#171717" stroke-width="10"/>
+    <ellipse cx="158" cy="74" rx="20" ry="22" fill="#FFFFFF" stroke="#171717" stroke-width="10"/>
+
+    <!-- Green Kiwi Pupils with white highlight -->
+    <ellipse cx="102" cy="74" rx="10" ry="14" fill="#73D69A" stroke="#171717" stroke-width="6"/>
+    <circle cx="98" cy="68" r="4" fill="#FFFFFF"/>
+
+    <ellipse cx="154" cy="74" rx="10" ry="14" fill="#73D69A" stroke="#171717" stroke-width="6"/>
+    <circle cx="150" cy="68" r="4" fill="#FFFFFF"/>
+
+    <!-- Cute Nose & Mouth -->
+    <ellipse cx="128" cy="88" rx="6" ry="4.5" fill="#FF8FB1" stroke="#171717" stroke-width="5"/>
+  </g>
+
+  <!-- 2. Terminal Screen -->
+  <g>
+    <!-- Screen Body -->
+    <rect x="34" y="108" width="188" height="136" rx="30" fill="#20222B" stroke="#171717" stroke-width="13" stroke-linejoin="round"/>
+
+    <!-- Terminal Command Prompt: > _ -->
+    <path d="M 64 158 L 94 177 L 64 196" fill="none" stroke="#5ED8D2" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 120 196 L 168 196" fill="none" stroke="#FFE477" stroke-width="14" stroke-linecap="round"/>
+  </g>
+
+  <!-- 3. Cat Paws Gripping Screen Top -->
+  <g>
+    <!-- Left Paw -->
+    <path d="M 60 114
+             C 60 102, 70 96, 82 96
+             C 94 96, 104 102, 104 114
+             C 104 126, 94 130, 82 130
+             C 70 130, 60 126, 60 114 Z"
+          fill="#FF9A52" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
+    <!-- Paw toe lines -->
+    <path d="M 74 116 L 74 126" stroke="#171717" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 88 116 L 88 126" stroke="#171717" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Right Paw -->
+    <path d="M 152 114
+             C 152 102, 162 96, 174 96
+             C 186 96, 196 102, 196 114
+             C 196 126, 186 130, 174 130
+             C 162 130, 152 126, 152 114 Z"
+          fill="#FF9A52" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
+    <!-- Paw toe lines -->
+    <path d="M 166 116 L 166 126" stroke="#171717" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 180 116 L 180 126" stroke="#171717" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>
