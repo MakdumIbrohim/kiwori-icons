@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- 1. Master Page Base Sheet -->
+  <path d="M 52 14
+           L 184 14
+           L 222 52
+           L 222 222
+           C 222 234, 212 242, 198 242
+           L 58 242
+           C 44 242, 34 234, 34 222
+           L 34 34
+           C 34 20, 44 14, 52 14 Z"
+        fill="#FFFFFF" stroke="#171717" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- 2. Compact Folded Top-Right Corner -->
+  <path d="M 184 14 L 184 52 L 222 52 Z" fill="#E4E9F0" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
+
+  <!-- 3. Bottom Color Accent Bar -->
+  <path d="M 34 180 L 34 222 C 34 234, 44 242, 58 242 L 198 242 C 212 242, 222 234, 222 222 L 222 180 Z"
+        fill="#B982FF" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
+
+  <!-- 4. Center Emblem -->
+    <!-- Desktop Theme Palette -->
+  <g transform="translate(128, 118)">
+    <!-- Wooden / Pastel Palette -->
+    <path d="M -34 6
+             C -44 -16, -26 -38, 2 -38
+             C 30 -38, 44 -18, 38 10
+             C 34 26, 18 34, 4 32
+             C -6 30, -12 36, -6 42
+             C 0 46, -10 50, -22 40
+             C -32 30, -32 18, -34 6 Z"
+          fill="#FFE477" stroke="#171717" stroke-width="9" stroke-linejoin="round"/>
+    <!-- Thumb hole -->
+    <ellipse cx="-16" cy="22" rx="7" ry="6" fill="#FFFFFF" stroke="#171717" stroke-width="6"/>
+    <!-- Paint Color Blobs -->
+    <circle cx="-16" cy="-18" r="6" fill="#FF6B6B" stroke="#171717" stroke-width="4.5"/>
+    <circle cx="8" cy="-22" r="6" fill="#65C7FF" stroke="#171717" stroke-width="4.5"/>
+    <circle cx="26" cy="-4" r="6" fill="#73D69A" stroke="#171717" stroke-width="4.5"/>
+    <circle cx="20" cy="16" r="6" fill="#B982FF" stroke="#171717" stroke-width="4.5"/>
+  </g>
+</svg>

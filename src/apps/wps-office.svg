@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <!-- Strict Kiwori Palette -->
+    <linearGradient id="wps_red_grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="100%" stop-color="#D70A53"/>
+    </linearGradient>
+    <linearGradient id="wps_orange_grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFAA6B"/>
+      <stop offset="100%" stop-color="#FFA026"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(13.5, 51.0) scale(5.95)">
+    <!-- 1. Main Red Ribbon Body -->
+    <path d="m23.2 24.2-3.1-6.4 2.6-5.5 3 6.2 6.2-13c0.1-0.3 0-0.7-0.3-0.8-0.1 0-0.2-0.1-0.3-0.1h-6.8l-9.4 19.6c-0.6 1.4-2.2 2-3.6 1.5-0.7-0.3-1.2-0.8-1.5-1.4v-0.1l-9.8-20.7c-0.6-1.2 0-2.7 1.2-3.3 0.4-0.1 0.8-0.2 1.1-0.2h11.8c1.5 0 2.8 0.8 3.5 2.1l0.5 1-2.6 5.5-1.6-3.3c-0.2-0.4-0.7-0.7-1.1-0.7h-6c-0.3 0-0.6 0.3-0.6 0.6 0 0.1 0 0.2 0.1 0.3l6.2 13 6.5-13.5 1.4-2.8c0.6-1.4 1.9-2.2 3.4-2.2h11.9c1.4 0 2.5 1.1 2.5 2.5 0 0.4-0.1 0.7-0.2 1.1l-9.9 20.7c-0.6 1.4-2.2 2.1-3.6 1.5-0.7-0.3-1.2-0.8-1.5-1.6z" fill="url(#wps_red_grad)" stroke="#171717" stroke-width="2.15" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 2. Orange Diagonal Ribbon Fold -->
+    <path d="m21.3 11.5h-5.3l0.5-1 2.7-5.5 1.4-2.8c0.6-1.4 1.9-2.2 3.4-2.2h5.3-0.2c-1.4 0.1-2.7 0.9-3.2 2.1l-4.3 8.9-0.3 0.5z" fill="url(#wps_orange_grad)" stroke="#171717" stroke-width="2.15" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 3. Top-Right Accent Loop -->
+    <path d="m35.9 0c1.4 0 2.5 1.1 2.5 2.5 0 0.4-0.1 0.7-0.2 1.1l-3.8 8-5-0.5 2.6-5.5c0.1-0.3 0-0.7-0.3-0.8-0.1 0-0.2-0.1-0.3-0.1h-6.8l1.2-2.5c0.6-1.3 1.9-2.2 3.4-2.2h6.7z" fill="url(#wps_red_grad)" stroke="#171717" stroke-width="2.15" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

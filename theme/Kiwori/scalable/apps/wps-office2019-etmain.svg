@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="card_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#73D69A"/>
+      <stop offset="100%" stop-color="#1DB954"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle Base -->
+  <rect x="18" y="18" width="220" height="220" rx="56" fill="url(#card_bg)" stroke="#171717" stroke-width="14" stroke-linejoin="round"/>
+
+  <!-- Top-left cartoon shine -->
+  <path d="M 35 66 A 41 41 0 0 1 66 35" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Official Glyph with Comic Outline -->
+  
+  <path d="M 174 84
+           L 112 84
+           C 90 84, 82 98, 82 112
+           C 82 126, 92 132, 114 132
+           L 142 132
+           C 164 132, 174 138, 174 152
+           C 174 166, 166 180, 144 180
+           L 82 180"
+        fill="none" stroke="#171717" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 174 84
+           L 112 84
+           C 90 84, 82 98, 82 112
+           C 82 126, 92 132, 114 132
+           L 142 132
+           C 164 132, 174 138, 174 152
+           C 174 166, 166 180, 144 180
+           L 82 180"
+        fill="none" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>
