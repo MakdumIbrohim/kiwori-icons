@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="zoom_blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4FA8FF"/>
+      <stop offset="100%" stop-color="#2280F2"/>
+    </linearGradient>
+    <linearGradient id="lens_glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#BAEBFF"/>
+      <stop offset="100%" stop-color="#56C1FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Camera Lens Projector (Right Trapezoid) -->
+  <path d="M 166 102
+           L 224 64
+           C 236 56, 246 64, 246 78
+           L 246 178
+           C 246 192, 236 200, 224 192
+           L 166 154 Z"
+        fill="url(#zoom_blue)" stroke="#171717" stroke-width="13" stroke-linejoin="round"/>
+
+  <!-- 2. Camera Body (Main Rounded Box) -->
+  <rect x="10" y="46" width="168" height="164" rx="44" fill="url(#zoom_blue)" stroke="#171717" stroke-width="13" stroke-linejoin="round"/>
+
+  <!-- 3. Camera Lens Glass Center -->
+  <circle cx="94" cy="128" r="46" fill="url(#lens_glass)" stroke="#171717" stroke-width="11"/>
+  <circle cx="94" cy="128" r="28" fill="#1C6ED6" stroke="#171717" stroke-width="8"/>
+  <!-- Highlight reflections on lens glass -->
+  <circle cx="83" cy="115" r="9" fill="#FFFFFF"/>
+  <circle cx="106" cy="139" r="4" fill="#FFFFFF"/>
+
+  <!-- 4. Top highlight line on camera body -->
+  <path d="M 44 64 L 144 64" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+</svg>
