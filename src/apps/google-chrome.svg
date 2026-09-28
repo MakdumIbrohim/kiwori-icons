@@ -1,45 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
   <defs>
-    <!-- Chromium Top Blade (Vibrant Blue) -->
-    <linearGradient id="ch_top" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#4B96FF"/>
-      <stop offset="100%" stop-color="#2572E8"/>
+    <!-- Multi-color Chrome: Red #FF4D79 to #FF2458 -->
+    <linearGradient id="cr_red" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4D79"/>
+      <stop offset="100%" stop-color="#FF2458"/>
     </linearGradient>
-    <!-- Chromium Right Blade (Light Sky / Ice Blue) -->
-    <linearGradient id="ch_right" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#93D3FB"/>
-      <stop offset="100%" stop-color="#60B5F7"/>
+    <!-- Yellow #FFE477 to #FFC83B -->
+    <linearGradient id="cr_yellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE477"/>
+      <stop offset="100%" stop-color="#FFC83B"/>
     </linearGradient>
-    <!-- Chromium Left Blade (Cyan / Teal Blue) -->
-    <linearGradient id="ch_left" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#4AD6E8"/>
-      <stop offset="100%" stop-color="#1BA7C4"/>
+    <!-- Green/Cyan #5ED8D2 to #24BDA8 -->
+    <linearGradient id="cr_green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5ED8D2"/>
+      <stop offset="100%" stop-color="#24BDA8"/>
     </linearGradient>
-    <!-- Center Core Deep Blue -->
-    <linearGradient id="ch_core" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2D72E2"/>
-      <stop offset="100%" stop-color="#144EB2"/>
+    <!-- Center Core Blue #4FA8FF to #2280F2 -->
+    <linearGradient id="cr_blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4FA8FF"/>
+      <stop offset="100%" stop-color="#2280F2"/>
     </linearGradient>
   </defs>
 
-  <!-- Base Outer Circle Background (Cyan-blue base) -->
-  <circle cx="128.0" cy="128.0" r="114.0" fill="url(#ch_left)"/>
+  <!-- Base Outer Circle Background (Green base) -->
+  <circle cx="128.0" cy="128.0" r="114.0" fill="url(#cr_green)"/>
 
-  <!-- Right Segment (Light Sky / Ice Blue) -->
+  <!-- Yellow Segment (Right & Bottom-Right) -->
   <path d="M 128.00 82.00
            L 232.31 82.00
            A 114.0 114.0 0 0 1 115.68 241.33
            L 167.84 151.00
            A 46.0 46.0 0 0 0 128.00 82.00 Z"
-        fill="url(#ch_right)"/>
+        fill="url(#cr_yellow)"/>
 
-  <!-- Top Segment (Vibrant Blue) -->
+  <!-- Red Segment (Top) -->
   <path d="M 88.16 151.00
            L 36.01 60.67
            A 114.0 114.0 0 0 1 232.31 82.00
            L 128.00 82.00
            A 46.0 46.0 0 0 0 88.16 151.00 Z"
-        fill="url(#ch_top)"/>
+        fill="url(#cr_red)"/>
 
   <!-- Dividing Lines with Bold Black Outlines -->
   <line x1="128.00" y1="82.00" x2="232.31" y2="82.00"
@@ -52,8 +52,8 @@
   <!-- Master Outer Rim Outline -->
   <circle cx="128.0" cy="128.0" r="114.0" fill="none" stroke="#171717" stroke-width="14"/>
 
-  <!-- Center Core Circle with Bold Outline -->
-  <circle cx="128.0" cy="128.0" r="46.0" fill="url(#ch_core)" stroke="#171717" stroke-width="13"/>
+  <!-- Center Core Blue Circle with Bold Outline -->
+  <circle cx="128.0" cy="128.0" r="46.0" fill="url(#cr_blue)" stroke="#171717" stroke-width="13"/>
 
   <!-- Center Core Highlight Reflection -->
   <circle cx="114" cy="114" r="6.5" fill="#FFFFFF" opacity="0.8"/>
