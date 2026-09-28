@@ -1,26 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
   <defs>
-    <linearGradient id="kiwi_rind" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#B27838"/>
-      <stop offset="100%" stop-color="#7C4E1E"/>
-    </linearGradient>
-    <linearGradient id="kiwi_flesh" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#8CE8A6"/>
-      <stop offset="100%" stop-color="#55C978"/>
+    <linearGradient id="arch_grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5ED8D2"/>
+      <stop offset="100%" stop-color="#1793D1"/>
     </linearGradient>
   </defs>
-  <circle cx="128" cy="128" r="114" fill="url(#kiwi_rind)" stroke="#171717" stroke-width="14"/>
-  <circle cx="128" cy="128" r="98" fill="url(#kiwi_flesh)" stroke="#171717" stroke-width="10"/>
-  <ellipse cx="128" cy="128" rx="32" ry="26" fill="#F4FFE4" stroke="#171717" stroke-width="7"/>
-  <circle cx="128" cy="86" r="4.5" fill="#171717"/>
-  <circle cx="156" cy="94" r="4.5" fill="#171717"/>
-  <circle cx="170" cy="116" r="4.5" fill="#171717"/>
-  <circle cx="166" cy="142" r="4.5" fill="#171717"/>
-  <circle cx="146" cy="164" r="4.5" fill="#171717"/>
-  <circle cx="120" cy="168" r="4.5" fill="#171717"/>
-  <circle cx="96" cy="158" r="4.5" fill="#171717"/>
-  <circle cx="86" cy="136" r="4.5" fill="#171717"/>
-  <circle cx="90" cy="110" r="4.5" fill="#171717"/>
-  <circle cx="106" cy="92" r="4.5" fill="#171717"/>
-  <circle cx="128" cy="128" r="114" fill="none" stroke="#171717" stroke-width="14"/>
+  <g transform="translate(10.4, 10.4) scale(9.8)">
+    <path d="M11.39.605C10.376 3.092 9.764 4.72 8.635 7.132c.693.734 1.543 1.589 2.923 2.554-1.484-.61-2.496-1.224-3.252-1.86C6.86 10.842 4.596 15.138 0 23.395c3.612-2.085 6.412-3.37 9.021-3.862a6.61 6.61 0 01-.171-1.547l.003-.115c.058-2.315 1.261-4.095 2.687-3.973 1.426.12 2.534 2.096 2.478 4.409a6.52 6.52 0 01-.146 1.243c2.58.505 5.352 1.787 8.914 3.844-.702-1.293-1.33-2.459-1.929-3.57-.943-.73-1.926-1.682-3.933-2.713 1.38.359 2.367.772 3.137 1.234-6.09-11.334-6.582-12.84-8.67-17.74z" fill="url(#arch_grad)" stroke="#171717" stroke-width="1.35" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
 </svg>
