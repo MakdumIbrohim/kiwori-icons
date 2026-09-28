@@ -631,8 +631,8 @@ to attach them to the start of each source file to most effectively
 state the exclusion of warranty; and each file should have at least
 the "copyright" line and a pointer to where the full notice is found.
 
-    <one line to give the program's name and a brief idea of what it does.>
-    Copyright (C) <year>  <name of author>
+    Kiwori Icons — Playful cartoon icon theme for Linux with bold black outlines and vibrant pastel colors.
+    Copyright (C) 2026 Makdum Ibrohim and Kiwori Icons Contributors
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -672,3 +672,16 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+---
+
+TRADEMARK & NON-AFFILIATION NOTICE
+
+All third-party product names, logos, brands, and registered trademarks
+depicted or referred to within this icon theme are the property of their
+respective owners.
+
+The use of these names, logos, and brands does not imply endorsement,
+sponsorship, or affiliation with the Kiwori Icons project. Kiwori Icons
+provides artistic representations strictly for desktop integration and
+interoperability purposes under fair use.
