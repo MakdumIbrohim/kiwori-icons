@@ -39,10 +39,31 @@ Pastel cartoon icon theme for Linux. Bold `#171717` outlines.
 
 ## Install
 
+User-local install (no root needed):
+
 ```bash
 git clone https://github.com/MakdumIbrohim/kiwori-icons.git
 cd kiwori-icons
 ./scripts/install.sh
+```
+
+Options:
+
+```bash
+./scripts/install.sh --system   # system-wide to /usr/share/icons (needs sudo)
+./scripts/install.sh --help     # show usage
+```
+
+Switch the start-menu launcher icon (ubuntu, kubuntu, arch, debian, kde, fedora, kiwori):
+
+```bash
+./scripts/set-launcher.sh arch
+```
+
+Uninstall:
+
+```bash
+./scripts/uninstall.sh
 ```
 
 Activate: **System Settings → Colors & Themes → Icons → Kiwori → Apply**.
