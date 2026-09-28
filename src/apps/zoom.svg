@@ -1,34 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
   <defs>
-    <linearGradient id="zoom_blue" x1="0%" y1="0%" x2="0%" y2="100%">
+    <!-- Vibrant Zoom Blue gradient -->
+    <linearGradient id="zoom_bg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#4FA8FF"/>
-      <stop offset="100%" stop-color="#2280F2"/>
+      <stop offset="100%" stop-color="#2076DF"/>
     </linearGradient>
-    <linearGradient id="lens_glass" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="lens_in" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#BAEBFF"/>
-      <stop offset="100%" stop-color="#56C1FF"/>
+      <stop offset="100%" stop-color="#65C7FF"/>
     </linearGradient>
   </defs>
 
-  <!-- 1. Camera Lens Projector (Right Trapezoid) -->
-  <path d="M 166 102
-           L 224 64
-           C 236 56, 246 64, 246 78
-           L 246 178
-           C 246 192, 236 200, 224 192
-           L 166 154 Z"
-        fill="url(#zoom_blue)" stroke="#171717" stroke-width="13" stroke-linejoin="round"/>
+  <!-- 1. Squircle Base Card -->
+  <rect x="18" y="18" width="220" height="220" rx="56" fill="url(#zoom_bg)" stroke="#171717" stroke-width="14" stroke-linejoin="round"/>
 
-  <!-- 2. Camera Body (Main Rounded Box) -->
-  <rect x="10" y="46" width="168" height="164" rx="44" fill="url(#zoom_blue)" stroke="#171717" stroke-width="13" stroke-linejoin="round"/>
+  <!-- 2. Concentric Corner Glare (Accurately follows the squircle radius rx=56) -->
+  <path d="M 35 66 A 41 41 0 0 1 66 35" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
 
-  <!-- 3. Camera Lens Glass Center -->
-  <circle cx="94" cy="128" r="46" fill="url(#lens_glass)" stroke="#171717" stroke-width="11"/>
-  <circle cx="94" cy="128" r="28" fill="#1C6ED6" stroke="#171717" stroke-width="8"/>
-  <!-- Highlight reflections on lens glass -->
-  <circle cx="83" cy="115" r="9" fill="#FFFFFF"/>
-  <circle cx="106" cy="139" r="4" fill="#FFFFFF"/>
+  <!-- 3. White Camera Projector Lens (Right) -->
+  <path d="M 152 110
+           L 198 80
+           C 208 74, 216 80, 216 92
+           L 216 164
+           C 216 176, 208 182, 198 176
+           L 152 146 Z"
+        fill="#FFFFFF" stroke="#171717" stroke-width="12" stroke-linejoin="round"/>
 
-  <!-- 4. Top highlight line on camera body -->
-  <path d="M 44 64 L 144 64" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+  <!-- 4. White Camera Body (Main Box) -->
+  <rect x="40" y="74" width="124" height="108" rx="30" fill="#FFFFFF" stroke="#171717" stroke-width="12" stroke-linejoin="round"/>
+
+  <!-- 5. Inner Camera Lens Glass -->
+  <circle cx="102" cy="128" r="28" fill="url(#lens_in)" stroke="#171717" stroke-width="8"/>
+  <circle cx="102" cy="128" r="16" fill="#2076DF" stroke="#171717" stroke-width="5"/>
+  <circle cx="96" cy="121" r="5" fill="#FFFFFF"/>
+
+  <!-- 6. Green Active Call Dot -->
+  <circle cx="62" cy="94" r="8" fill="#73D69A" stroke="#171717" stroke-width="4.5"/>
 </svg>
