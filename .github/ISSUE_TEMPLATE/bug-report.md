@@ -1,27 +1,29 @@
 ---
 name: Bug Report
-about: Report a broken, missing, or improperly rendered icon
-title: "[Bug]: "
+about: Report a broken, misaligned, or improperly rendered icon
+title: "[BUG] "
 labels: bug
 assignees: ''
 ---
 
 ### Problem Description
 
-*Clear and concise description of the issue.*
-
-### Environment Details
-
-* **Desktop Environment** (KDE Plasma, GNOME, XFCE, etc.): 
-* **Linux Distribution**: 
-* **Kiwori Icons Version / Git Commit**: 
-* **Installation Method** (install.sh, AUR, tarball): 
+*Clear and concise description of the issue (e.g. icon appears black on dark panel, outline is cut off, icon does not change when applied).*
 
 ### Affected Icon
 
-* **Application Name**: 
-* **Expected Icon Filename**: 
+* **Icon Name**: 
+* **Affected Application / File**: 
+* **Expected Appearance**: 
+* **Current Appearance**: 
+
+### System Information
+
+* **Desktop Environment** (KDE Plasma 6, GNOME 46, XFCE 4.18, etc.): 
+* **Desktop Theme Mode**: [ ] Light Mode  /  [ ] Dark Mode
+* **Linux Distribution**: 
+* **Kiwori Version / Variant**: [ ] Kiwori  /  [ ] Kiwori Dark
 
 ### Screenshots
 
-*Attach screenshots if applicable.*
+*Attach screenshots showing the issue on your panel, file manager, or application launcher.*

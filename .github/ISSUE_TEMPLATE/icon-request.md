@@ -1,26 +1,27 @@
 ---
 name: Icon Request
-about: Request a new application icon for Kiwori Icons
-title: "[Icon Request]: "
+about: Request a new application or file type icon
+title: "[ICON REQUEST] "
 labels: icon-request
 assignees: ''
 ---
 
 ### Application Information
 
-* **Application Name**: 
-* **Desktop Entry File** (e.g. `org.mozilla.firefox.desktop`): 
-* **Official Website**: 
-* **Distribution / Packaging** (Native DEB/RPM, Flatpak, Snap, AUR): 
+* **Application / Tool Name**: 
+* **Desktop Entry File** (e.g. `/usr/share/applications/app.desktop` or `~/.local/share/applications/`): 
+* **Icon Key** (the `Icon=...` line inside the `.desktop` file): 
+* **Official Website / Source Repository**: 
+* **Distribution & Packaging** (Native DEB/RPM/Arch, Flatpak, Snap, AppImage): 
 
 ### Visual Reference
 
-*Attach screenshots or link to the official application logo.*
+*Attach an image, screenshot, or URL of the official application logo.*
 
-### Proposed Category
+### Proposed Icon Category
 
-- [ ] Apps
-- [ ] Actions
-- [ ] Places
-- [ ] Devices
-- [ ] Mimetypes
+- [ ] `apps` (Applications, tools, browsers, players)
+- [ ] `places` (Special folders, system locations)
+- [ ] `devices` (Hardware, storage, peripherals)
+- [ ] `mimetypes` (File extensions, documents, data formats)
+- [ ] `actions` (UI buttons, toolbar actions)

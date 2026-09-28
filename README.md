@@ -79,6 +79,17 @@ Activate:
 * [Development](docs/DEVELOPMENT.md)
 * [Contributing](docs/CONTRIBUTING.md)
 
+---
+
+## Requests & Issues
+
+Open an issue on GitHub using the matching prefix:
+
+* `[ICON REQUEST] <App Name>` — Request a new icon
+* `[BUG] <Short Description>` — Report visual or theme issues
+* `[SYMLINK REQUEST] <App Name>` — Add missing desktop launcher alias
+* `[LAUNCHER REQUEST] <Distro Name>` — Request start-menu distro icon
+
 ## License
 
 [GPL-3.0](LICENSE.md). Third-party logos belong to their respective owners, used for desktop interoperability under fair use.
