@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <!-- Strict Kiwori Palette: Red #FF6B6B to #D70A53, Orange #FFAA6B to #FFA026 -->
+    <linearGradient id="wps_red" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="100%" stop-color="#D70A53"/>
+    </linearGradient>
+    <linearGradient id="wps_orange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFAA6B"/>
+      <stop offset="100%" stop-color="#FFA026"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Right Wing (Red loop) -->
+  <path d="M 172 36
+           L 236 36
+           C 246 36, 252 46, 248 56
+           L 204 208
+           C 198 220, 184 222, 174 214
+           L 138 184
+           C 146 166, 154 148, 162 130
+           L 208 72
+           L 152 72
+           Z"
+        fill="url(#wps_red)" stroke="#171717" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- 2. Center Orange Crossing Ribbon -->
+  <path d="M 94 200
+           L 142 38
+           C 146 34, 154 34, 160 38
+           L 194 72
+           L 134 186
+           L 98 206 Z"
+        fill="url(#wps_orange)" stroke="#171717" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- 3. Left Wing (Red loop, front-most) -->
+  <path d="M 112 36
+           L 20 36
+           C 10 36, 4 46, 8 56
+           L 52 208
+           C 58 220, 72 222, 82 214
+           L 118 184
+           C 110 166, 102 148, 94 130
+           L 48 72
+           L 104 72
+           Z"
+        fill="url(#wps_red)" stroke="#171717" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

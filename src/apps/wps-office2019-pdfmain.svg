@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="card_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="100%" stop-color="#D70A53"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle Card Base -->
+  <rect x="18" y="18" width="220" height="220" rx="56" fill="url(#card_bg)" stroke="#171717" stroke-width="14" stroke-linejoin="round"/>
+
+  <!-- Top-left cartoon shine -->
+  <path d="M 35 66 A 41 41 0 0 1 66 35" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Glyph -->
+  
+  <text x="128" y="146" font-family="sans-serif" font-weight="900" font-size="52" fill="#FFFFFF" stroke="#171717" stroke-width="12" paint-order="stroke fill" text-anchor="middle">PDF</text>
+
+</svg>

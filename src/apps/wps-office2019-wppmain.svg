@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="card_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFAA6B"/>
+      <stop offset="100%" stop-color="#FFA026"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Squircle Card Base -->
+  <rect x="18" y="18" width="220" height="220" rx="56" fill="url(#card_bg)" stroke="#171717" stroke-width="14" stroke-linejoin="round"/>
+
+  <!-- Top-left cartoon shine -->
+  <path d="M 35 66 A 41 41 0 0 1 66 35" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Glyph -->
+  
+  <path d="M 88 184 L 88 72 L 136 72 C 162 72, 178 86, 178 108 C 178 130, 162 144, 136 144 L 88 144"
+        fill="none" stroke="#171717" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 88 184 L 88 72 L 136 72 C 162 72, 178 86, 178 108 C 178 130, 162 144, 136 144 L 88 144"
+        fill="none" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+
+</svg>
