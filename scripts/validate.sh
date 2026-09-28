@@ -36,7 +36,7 @@ if [[ ! -f "$INDEX_THEME" ]]; then
 else
     # Check essential keys
     if grep -q "^Name=Kiwori" "$INDEX_THEME" && \
-       grep -q "^Inherits=hicolor" "$INDEX_THEME" && \
+       grep -E -q "^Inherits=.*hicolor" "$INDEX_THEME" && \
        grep -q "^Directories=" "$INDEX_THEME"; then
         log_pass "index.theme is valid with required keys."
     else
