@@ -1,139 +1,61 @@
+<div align="center">
+
+<img src="preview/mascot.svg" width="180" alt="Kiwori-chan mascot" />
+
 # Kiwori Icons
 
-<p align="center">
-  <img src="preview/mascot.svg" width="180" alt="Kiwori-chan mascot" />
-</p>
+[![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](LICENSE.md)
+[![Linux](https://img.shields.io/badge/platform-Linux-1793D1.svg)]()
+[![SVG](https://img.shields.io/badge/format-SVG-FF8FB1.svg)]()
+[![KDE Plasma](https://img.shields.io/badge/KDE-Plasma-1D99F3.svg)]()
 
-Kiwori Icons is an open-source Linux desktop icon theme featuring a **colorful, pastel, playful, cartoon-inspired, rounded, and bold black outline** visual style.
+Pastel cartoon icon theme for Linux. Bold `#171717` outlines.
 
-Meet **Kiwori-chan**, project mascot. Chibi anime girl, pastel purple hair, kiwi hairpin, folder in hands.
-
-Designed with a distinct aesthetic identity, Kiwori brings modern cartoon sticker vibrancy to the Linux desktop while keeping application logos and identities instantly recognizable.
-
----
-
-## Preview
-
-![Kiwori Preview Overview](preview/overview.png)
-
-*(Icon previews and mockups are located in the `preview/` directory)*
+</div>
 
 ---
 
-## Key Characteristics & Features
+<div align="center">
 
-* **Pastel & Colorful**: Harmonious blend of soft pastel bases and vivid saturated accents.
-* **Rounded Shapes**: Friendly, soft-cornered geometry without harsh sharp angles.
-* **Bold Black Outline**: High-contrast, dark charcoal outline (`#171717`) defining each silhouette and sub-element.
-* **Scalable Vector**: 100% SVG-based (`256×256` master artboard), rendering crisply across all display resolutions and HiDPI scales.
-* **FreeDesktop/XDG Compliant**: Adheres to modern Linux icon theme standards with automated fallback inheritance to `hicolor`.
+## Applications
+
+<img src="preview/applications.png" width="552" alt="Application icons" />
+
+## Folders
+
+<img src="preview/folders.png" width="560" alt="Folder icons" />
+
+## File Types
+
+<img src="preview/mimetypes.png" width="700" alt="File type icons" />
+
+## Launchers
+
+<img src="preview/launchers.png" width="550" alt="Distro launcher icons" />
+
+</div>
 
 ---
 
-## Supported Desktop Environments
-
-The primary development target is **KDE Plasma**, while maintaining full compatibility with all FreeDesktop-compliant desktop environments:
-* **KDE Plasma** (Dolphin, Konsole, System Settings, Discover)
-* **GNOME**
-* **XFCE**
-* **Cinnamon**
-* **MATE**
-* **LXQt**
-
----
-
-## Installation
-
-### Method 1: Git Installation (User-Local, Recommended)
-
-Run the following commands in your terminal:
+## Install
 
 ```bash
-git clone https://github.com/makdumibrohim/kiwori-icons.git
+git clone https://github.com/MakdumIbrohim/kiwori-icons.git
 cd kiwori-icons
 ./scripts/install.sh
 ```
 
-Installs directly to `~/.local/share/icons/Kiwori/` without requiring `sudo` privileges.
-
-### Method 2: Using Makefile
-
-```bash
-make install
-```
-
-### Method 3: System-Wide Installation (Optional)
-
-To install for all users across the operating system:
-
-```bash
-sudo ./scripts/install.sh --system
-```
+Activate: **System Settings → Colors & Themes → Icons → Kiwori → Apply**.
 
 ---
 
-## Applying the Theme
+## Docs
 
-After installation, activate Kiwori in your desktop settings:
+* [Design Guidelines](docs/DESIGN.md)
+* [Icon Naming](docs/ICON-NAMING.md)
+* [Development](docs/DEVELOPMENT.md)
+* [Contributing](docs/CONTRIBUTING.md)
 
-* **KDE Plasma**:
-  Open **System Settings** → **Colors & Themes** → **Icons** → Select **Kiwori** → Click **Apply**.
-* **GNOME**:
-  Open **GNOME Tweaks** → **Appearance** → **Icons** → Select **Kiwori**.
-* **XFCE**:
-  Open **Settings** → **Appearance** → **Icons** → Select **Kiwori**.
+## License
 
----
-
-## Uninstallation
-
-Run the uninstall script:
-
-```bash
-./scripts/uninstall.sh
-```
-
-Or via `make`:
-
-```bash
-make uninstall
-```
-
----
-
-## Development
-
-Build and validate the theme locally:
-
-```bash
-# Validate SVG integrity and index.theme configuration
-make validate
-
-# Build distribution theme to theme/Kiwori/
-make build
-
-# Clean build artifacts
-make clean
-```
-
-Detailed technical and design documentation:
-* [Design Guidelines (docs/DESIGN.md)](docs/DESIGN.md)
-* [Icon Naming Conventions (docs/ICON-NAMING.md)](docs/ICON-NAMING.md)
-* [Development Guide (docs/DEVELOPMENT.md)](docs/DEVELOPMENT.md)
-* [Contributing Guide (docs/CONTRIBUTING.md)](docs/CONTRIBUTING.md)
-
----
-
-## Contributing
-
-Contributions of new application icons, bug reports, and design refinements are welcome! Please review [CONTRIBUTING.md](docs/CONTRIBUTING.md) for branch guidelines (`dev`), quality standards, and pull request procedures.
-
----
-
-## License & Trademark Notice
-
-### License
-Kiwori Icons is licensed under the [GNU General Public License v3.0 (GPL-3.0)](LICENSE.md).
-
-### Trademark & Non-Affiliation Notice
-All third-party product names, logos, brands, and registered trademarks depicted or referenced within this icon theme remain the property of their respective owners. Their inclusion serves strictly for Linux desktop interoperability and integration under fair use, and does not imply sponsorship, affiliation, or endorsement.
+[GPL-3.0](LICENSE.md). Third-party logos belong to their respective owners, used for desktop interoperability under fair use.
