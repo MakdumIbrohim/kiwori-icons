@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Kiwori-chan: chibi anime mascot in Kiwori art style -->
+  <!-- Back hair -->
+  <ellipse cx="128" cy="112" rx="90" ry="95" fill="#B982FF" stroke="#171717" stroke-width="14"/>
+
+  <!-- Body outfit -->
+  <rect x="92" y="196" width="72" height="44" rx="16" fill="#65C7FF" stroke="#171717" stroke-width="12" stroke-linejoin="round"/>
+
+  <!-- Arms -->
+  <rect x="62" y="202" width="26" height="38" rx="13" fill="#FFE6A8" stroke="#171717" stroke-width="10"/>
+  <rect x="168" y="202" width="26" height="38" rx="13" fill="#FFE6A8" stroke="#171717" stroke-width="10"/>
+
+  <!-- Small folder held in front -->
+  <rect x="100" y="208" width="56" height="34" rx="9" fill="#FFBD4A" stroke="#171717" stroke-width="9" stroke-linejoin="round"/>
+  <rect x="100" y="200" width="24" height="12" rx="4" fill="#FFBD4A" stroke="#171717" stroke-width="7"/>
+  <rect x="88" y="206" width="30" height="12" rx="4" fill="#FFFFFF" stroke="#171717" stroke-width="6"/>
+
+  <!-- Face -->
+  <ellipse cx="128" cy="132" rx="68" ry="58" fill="#FFE6A8" stroke="#171717" stroke-width="12"/>
+
+  <!-- Front bangs -->
+  <path d="M 60 108 Q 62 48 128 44 Q 194 48 196 108 L 184 102 L 174 82 L 162 102 L 150 80 L 138 100 L 126 78 L 114 100 L 102 80 L 90 102 L 80 82 L 70 102 Z"
+        fill="#B982FF" stroke="#171717" stroke-width="10" stroke-linejoin="round"/>
+
+  <!-- Side locks -->
+  <path d="M 72 100 C 64 128 64 160 76 186 C 80 193 90 191 91 183 C 84 164 84 132 90 106 Z"
+        fill="#B982FF" stroke="#171717" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M 184 100 C 192 128 192 160 180 186 C 176 193 166 191 165 183 C 172 164 172 132 166 106 Z"
+        fill="#B982FF" stroke="#171717" stroke-width="9" stroke-linejoin="round"/>
+
+  <!-- Ahoge -->
+  <path d="M 132 20 C 134 10 143 5 153 8" fill="none" stroke="#171717" stroke-width="11" stroke-linecap="round"/>
+  <path d="M 132 20 C 134 10 143 5 153 8" fill="none" stroke="#B982FF" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Hair shine (concentric inside purple hair band, clear of black outline) -->
+  <path d="M 57.3 76.9 A 78 83 0 0 1 95.0 36.8" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Kiwi hairpin -->
+  <circle cx="62" cy="150" r="12" fill="#73D69A" stroke="#171717" stroke-width="7"/>
+  <circle cx="62" cy="150" r="5" fill="#FFFFFF" stroke="#171717" stroke-width="4"/>
+  <circle cx="57" cy="145" r="1.5" fill="#171717"/>
+  <circle cx="67" cy="145" r="1.5" fill="#171717"/>
+  <circle cx="62" cy="155" r="1.5" fill="#171717"/>
+
+  <!-- Eyebrows -->
+  <path d="M 82 88 L 108 84" stroke="#171717" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 148 84 L 174 88" stroke="#171717" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Happy >< eyes -->
+  <path d="M 86 132 L 112 140 L 86 148" fill="none" stroke="#171717" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 170 132 L 144 140 L 170 148" fill="none" stroke="#171717" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Blush -->
+  <ellipse cx="78" cy="154" rx="9" ry="5.5" fill="#FF8FB1" fill-opacity="0.65"/>
+  <ellipse cx="178" cy="154" rx="9" ry="5.5" fill="#FF8FB1" fill-opacity="0.65"/>
+
+  <!-- Smile -->
+  <path d="M 118 158 Q 128 172 138 158 Q 128 164 118 158 Z" fill="#171717" stroke="#171717" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="128" cy="164" rx="4.5" ry="3" fill="#FF8FB1"/>
+</svg>
