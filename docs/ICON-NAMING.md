@@ -7,10 +7,15 @@ Guidelines for icon file naming and desktop entry mapping under the FreeDesktop 
 ## 1. Filename Rules
 
 Every icon file must satisfy the following criteria:
-1. **Strictly Lowercase**: `firefox.svg` (never `Firefox.svg`).
-2. **Hyphen Separators**: `google-chrome.svg` (never underscores or spaces).
+1. **Case-Sensitive Desktop Mapping**: Filenames must match the `Icon=` key in
+   the application's `.desktop` file exactly, including capitalization
+   (e.g. `Zoom.svg`, `com.obsproject.Studio.svg`, `org.mozilla.firefox.svg`).
+   Canonical master icons use lowercase hyphenated names
+   (e.g. `firefox.svg`, `google-chrome.svg`).
+2. **Hyphen Separators**: Prefer hyphens in canonical names
+   (`google-chrome.svg`, never underscores or spaces).
 3. **SVG Extension**: Files must end in `.svg`.
-4. **Allowed Characters**: `[a-z0-9.-]`.
+4. **Allowed Characters**: `[A-Za-z0-9._-]`.
 5. **No Special Characters**: Prohibit `@`, `!`, `#`, `$`, `%`, etc.
 
 ---

@@ -82,9 +82,11 @@ while IFS= read -r -d '' svg_file; do
         continue
     fi
 
-    # Check filename convention: lowercase, numbers, hyphens, periods
-    if [[ ! "$filename" =~ ^[a-z0-9]+([.-][a-z0-9]+)*\.svg$ ]]; then
-        log_fail "Filename does not adhere to naming standard (use lowercase, numbers, hyphens, dots): $filename"
+    # Check filename convention: allow FreeDesktop reverse-DNS names
+    # (e.g. org.mozilla.firefox.svg, com.obsproject.Studio.svg, Zoom.svg).
+    # Desktop entry Icon= keys are case-sensitive and must match exactly.
+    if [[ ! "$filename" =~ ^[A-Za-z0-9]+([._-][A-Za-z0-9]+)*\.svg$ ]]; then
+        log_fail "Filename does not adhere to naming standard (use alphanumerics with dots, hyphens, underscores): $filename"
     fi
 
     # Check basic SVG validity

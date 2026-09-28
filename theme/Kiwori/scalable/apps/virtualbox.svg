@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="vb_blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2A9DB8"/>
+      <stop offset="100%" stop-color="#14708A"/>
+    </linearGradient>
+    <linearGradient id="vb_orange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFB84D"/>
+      <stop offset="100%" stop-color="#F08A00"/>
+    </linearGradient>
+  </defs>
+  <!-- Blue V legs -->
+  <path d="M 28 40 L 104 216 L 152 216 L 92 40 Z" fill="url(#vb_blue)" stroke="#171717" stroke-width="13" stroke-linejoin="round"/>
+  <path d="M 118 96 L 196 96 L 196 216 L 152 216 L 152 140 L 104 140 Z" fill="url(#vb_blue)" stroke="#171717" stroke-width="13" stroke-linejoin="round"/>
+  <!-- Orange top box -->
+  <rect x="148" y="36" width="86" height="60" rx="12" fill="url(#vb_orange)" stroke="#171717" stroke-width="13" stroke-linejoin="round"/>
+  <rect x="172" y="52" width="38" height="28" rx="6" fill="#FFF3D6" stroke="#171717" stroke-width="8"/>
+</svg>
