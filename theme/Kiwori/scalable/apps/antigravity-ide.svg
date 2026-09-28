@@ -2,13 +2,13 @@
   <defs>
     <linearGradient id="agarch" x1="0%" y1="100%" x2="0%" y2="0%">
       <stop offset="0%" stop-color="#2F80ED"/>
-      <stop offset="52%" stop-color="#2AABEE"/>
-      <stop offset="66%" stop-color="#73D69A"/>
-      <stop offset="77%" stop-color="#FFE477"/>
-      <stop offset="86%" stop-color="#FFAA6B"/>
-      <stop offset="94%" stop-color="#FF6B6B"/>
+      <stop offset="58%" stop-color="#2AABEE"/>
+      <stop offset="70%" stop-color="#4ADE80"/>
+      <stop offset="78%" stop-color="#FFE477"/>
+      <stop offset="86%" stop-color="#FF9A3D"/>
+      <stop offset="94%" stop-color="#F43F3F"/>
     </linearGradient>
   </defs>
-  <path d="M 62 212 C 92 168, 108 118, 113 82 C 115 62, 121 50, 128 50 C 135 50, 141 62, 143 82 C 148 118, 164 168, 194 212" fill="none" stroke="#171717" stroke-width="64" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 62 212 C 92 168, 108 118, 113 82 C 115 62, 121 50, 128 50 C 135 50, 141 62, 143 82 C 148 118, 164 168, 194 212" fill="none" stroke="url(#agarch)" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 66 214 C 92 172, 108 130, 115 92 C 117 76, 120 60, 128 60 C 136 60, 139 76, 141 92 C 148 130, 164 172, 190 214" fill="none" stroke="#171717" stroke-width="60" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 66 214 C 92 172, 108 130, 115 92 C 117 76, 120 60, 128 60 C 136 60, 139 76, 141 92 C 148 130, 164 172, 190 214" fill="none" stroke="url(#agarch)" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
