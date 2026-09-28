@@ -1,27 +1,27 @@
 ---
 name: Bug Report
-about: Laporkan icon yang rusak, hilang, atau tidak muncul di desktop
+about: Report a broken, missing, or improperly rendered icon
 title: "[Bug]: "
 labels: bug
 assignees: ''
 ---
 
-### Deskripsi Masalah
+### Problem Description
 
-*Jelaskan secara singkat masalah yang dialami.*
+*Clear and concise description of the issue.*
 
-### Lingkungan Sistem
+### Environment Details
 
-* **Desktop Environment** (KDE Plasma, GNOME, XFCE, dll): 
-* **Distribusi Linux**: 
-* **Versi Kiwori Icons**: 
-* **Metode Instalasi** (Git install.sh lokal, AUR, tarball): 
+* **Desktop Environment** (KDE Plasma, GNOME, XFCE, etc.): 
+* **Linux Distribution**: 
+* **Kiwori Icons Version / Git Commit**: 
+* **Installation Method** (install.sh, AUR, tarball): 
 
-### Icon yang Bermasalah
+### Affected Icon
 
-* **Nama Aplikasi/Icon**: 
-* **Nama Berkas yang Diharapkan**: 
+* **Application Name**: 
+* **Expected Icon Filename**: 
 
-### Tangkapan Layar (Screenshot)
+### Screenshots
 
-*Lampirkan screenshot jika ada.*
+*Attach screenshots if applicable.*

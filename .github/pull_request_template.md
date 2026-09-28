@@ -1,8 +1,8 @@
-## Deskripsi Perubahan
+## Summary of Changes
 
-*Ringkasan icon yang ditambahkan, diperbarui, atau diperbaiki.*
+*Brief description of icons added, updated, or fixed.*
 
-## Kategori Icon
+## Icon Categories
 
 - [ ] `apps`
 - [ ] `actions`
@@ -13,12 +13,12 @@
 - [ ] `status`
 - [ ] `emblems`
 
-## Checklist Validasi
+## Quality Checklist
 
-- [ ] Menargetkan branch `dev` (bukan `main`)
-- [ ] Format berkas adalah `.svg` murni pada kanvas `256×256` px
-- [ ] Mengikuti Kiwori Design System (`#171717` outline, rounded, pastel)
-- [ ] Lolos pengujian `./scripts/validate.sh` secara lokal
-- [ ] Tidak ada file raster (PNG/JPEG) tertanam di dalam SVG
-- [ ] Penamaan berkas mengikuti standar lowercase dan hyphen
-- [ ] Telah diuji tampilan secara lokal
+- [ ] Targets the `dev` branch (not `main`)
+- [ ] Pure SVG format on a `256×256` canvas (`viewBox="0 0 256 256"`)
+- [ ] Follows Kiwori Design System (`#171717` outline, rounded geometry, pastel colors)
+- [ ] Passes `./scripts/validate.sh` locally
+- [ ] No embedded raster images (no base64 PNG/JPEG)
+- [ ] Filenames follow lowercase and hyphen conventions
+- [ ] Tested on a live desktop environment

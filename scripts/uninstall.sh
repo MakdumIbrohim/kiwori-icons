@@ -13,12 +13,12 @@ while [[ $# -gt 0 ]]; do
         -h|--help)
             echo "Usage: ./scripts/uninstall.sh [OPTIONS]"
             echo "Options:"
-            echo "  --system, -s    Hapus instalasi system-wide di /usr/share/icons/ (memerlukan root)"
-            echo "  --help, -h      Tampilkan bantuan ini"
+            echo "  --system, -s    Uninstall system-wide installation from /usr/share/icons/ (requires root)"
+            echo "  --help, -h      Display this help dialog"
             exit 0
             ;;
         *)
-            echo "Opsi tidak dikenal: $1"
+            echo "Unknown option: $1"
             exit 1
             ;;
     esac
@@ -26,7 +26,7 @@ done
 
 if [[ "$SYSTEM_INSTALL" == true ]]; then
     if [[ $EUID -ne 0 ]]; then
-        echo "Error: Pencopotan system-wide memerlukan hak akses root (sudo)."
+        echo "Error: System-wide uninstallation requires root privileges (sudo)."
         exit 1
     fi
     TARGET_DIR="/usr/share/icons/$THEME_NAME"
@@ -34,17 +34,17 @@ else
     TARGET_DIR="$HOME/.local/share/icons/$THEME_NAME"
 fi
 
-echo "=== Mencopot $THEME_NAME Icons ==="
+echo "=== Uninstalling $THEME_NAME Icons ==="
 
 if [[ ! -d "$TARGET_DIR" ]]; then
-    echo "Tema $THEME_NAME tidak ditemukan di: $TARGET_DIR"
+    echo "Theme $THEME_NAME was not found at: $TARGET_DIR"
     exit 0
 fi
 
-echo "Menghapus $TARGET_DIR..."
+echo "Removing $TARGET_DIR..."
 rm -rf "$TARGET_DIR"
 
-echo "Memperbarui icon cache sistem..."
+echo "Updating desktop icon cache..."
 if command -v kbuildsycoca6 >/dev/null 2>&1; then
     kbuildsycoca6 --noincremental >/dev/null 2>&1 || true
 elif command -v kbuildsycoca5 >/dev/null 2>&1; then
@@ -52,4 +52,4 @@ elif command -v kbuildsycoca5 >/dev/null 2>&1; then
 fi
 
 echo
-echo "Kiwori Icons berhasil dicopot dari sistem."
+echo "Kiwori Icons successfully removed from your system."

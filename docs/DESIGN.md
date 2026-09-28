@@ -1,87 +1,86 @@
 # Kiwori Design System
 
-Panduan standar desain untuk menjaga konsistensi visual seluruh icon dalam tema **Kiwori**.
+Design guidelines to maintain visual cohesion and quality across all icons in the **Kiwori** theme.
 
 ---
 
-## 1. Prinsip Utama
+## 1. Core Principles
 
 > **Recognizable, Playful, Colorful, Consistent.**
 
-* **Recognizable**: Logo atau aplikasi harus tetap mempertahankan karakter aslinya (Firefox tetap Firefox, Spotify tetap Spotify).
-* **Playful**: Nuansa ringan, sedikit sentuhan kartun dan stiker.
-* **Colorful**: Kombinasi warna pastel berpadu dengan aksen cerah.
-* **Consistent**: Memiliki bahasa bentuk, outline, radius sudut, dan bobot visual yang seragam di seluruh kategori.
+* **Recognizable**: Every application must preserve its essential brand identity and core motifs (Firefox must look like Firefox, Spotify must look like Spotify).
+* **Playful**: Lighthearted, friendly cartoon and sticker-inspired aesthetic.
+* **Colorful**: Expressive pastel backgrounds combined with punchy saturated focal accents.
+* **Consistent**: Shared shape language, uniform outline weights, aligned corner radii, and balanced visual mass across all categories.
 
 ---
 
-## 2. Canvas & Grid
+## 2. Canvas & Grid Metrics
 
-* **Format**: SVG murni (Scalable Vector Graphics).
-* **Artboard Master**: `256 × 256` px.
-* **ViewBox Wajib**: `viewBox="0 0 256 256"`.
-* **Safe Zone / Padding**: 16 px dari tepi kanvas (area aktif 224 × 224 px).
-
----
-
-## 3. Sistem Garis Tepi (Outline System)
-
-Outline gelap pekat adalah ciri khas utama identitas Kiwori.
-
-* **Warna Outline**: `#171717` (Kiwori Black).
-* **Tebal Garis Siluet Utama (Outer Stroke)**: `14px` (atau `16px` untuk siluet luar masif).
-* **Tebal Garis Detail Internal (Inner Stroke)**: `8px`.
-* **Ujung Garis**: `stroke-linecap="round"`.
-* **Sudut Garis**: `stroke-linejoin="round"`.
-* **Ketentuan Stroke**: Gunakan stroke proporsional (jangan gunakan `vector-effect: non-scaling-stroke` agar garis ikut mengecil saat discale ke ukuran kecil).
+* **Format**: Pure vector SVG (Scalable Vector Graphics).
+* **Master Artboard**: `256 × 256` px.
+* **Mandatory ViewBox**: `viewBox="0 0 256 256"`.
+* **Safe Zone / Padding**: 16 px border inset (224 × 224 px active drawing area).
 
 ---
 
-## 4. Bentuk (Shape Language)
+## 3. Outline System
 
-Gunakan bentuk geometris yang ramah dan membulat:
-* Rounded rectangle (Corner Radius referensi: `32px` - `48px` pada kanvas 256).
-* Rounded square / squircle.
-* Circle / ellipse.
-* Bentuk organik sederhana dengan kurva halus.
+A thick, bold dark outline is a cornerstone of the Kiwori visual identity.
 
-**Hindari**:
-* Sudut lancip tajam (< 90° tanpa bevel/radius).
-* Detail mikro berlebih yang akan hilang saat dirender pada ukuran 16px.
-* Tekstur realistis atau efek skeuomorphism berlebihan.
+* **Outline Color**: `#171717` (Kiwori Black).
+* **Outer Silhouette Stroke**: `14px` (or `16px` for primary container card borders).
+* **Inner Structural Stroke**: `8px` to `12px` for interior division lines.
+* **Line Caps**: `stroke-linecap="round"`.
+* **Line Joins**: `stroke-linejoin="round"`.
+* **Scaling Behavior**: Do not use `vector-effect: non-scaling-stroke`; strokes must scale proportionally with icon dimensions.
 
 ---
 
-## 5. Sistem Warna (Color Palette)
+## 4. Shape Language
 
-Palette awal resmi Kiwori:
+Construct icons using friendly, soft geometric primitives:
+* Rounded rectangles / squircles (Reference Corner Radius: `54px` – `58px` on a 256px card).
+* Circles and rounded ellipses.
+* Smooth organic shapes with generous curvature.
 
-| Nama Warna    | Hex Code  | Fungsi Utama |
-| ------------- | --------- | ------------ |
-| Kiwori Black  | `#171717` | Outline siluet dan detail simbol |
-| Soft White    | `#FFFFFF` | Highlight, kilau stiker, latar kontras |
-| Pastel Pink   | `#FF8FB1` | Aksen aplikasi hiburan / sosial |
-| Pastel Purple | `#B982FF` | Aksen media, kreativitas, utilitas |
-| Pastel Blue   | `#65C7FF` | Warna primer sistem, browser, folder |
-| Pastel Cyan   | `#5ED8D2` | Aksen komunikasi dan transfer data |
-| Pastel Green  | `#73D69A` | Status sukses, audio, productivity |
-| Pastel Yellow | `#FFE477` | Folder default, peringatan, arsip |
-| Pastel Orange | `#FFAA6B` | Aksen grafis, peringatan sedang |
-| Pastel Red    | `#FF6B6B` | Status error, media rekam, aksi hapus |
-
-*Warna aplikasi pihak ketiga dapat menyesuaikan identitas brand dengan tetap menjaga keseimbangan tone pastel & outline Kiwori.*
+**Prohibited**:
+* Razor-sharp corners (< 90° without a fillet/radius).
+* Hyper-detailed micro elements that vanish or blur at 16–24px.
+* Realistic textures or heavy skeuomorphism.
 
 ---
 
-## 6. Konstruksi SVG Teknis
+## 5. Official Color Palette
 
-Struktur SVG harus bersih dan valid:
-1. Tidak menyertakan metadata editor (seperti namespace `sodipodi` atau `inkscape` yang tidak diperlukan).
-2. Dilarang menyematkan gambar raster base64 (`data:image/png...`).
-3. Dilarang mereferensikan aset berkas eksternal (`href="file://..."`).
-4. Atribut root minimal:
+Reference baseline color palette:
+
+| Color Name    | Hex Code  | Primary Usage |
+| ------------- | --------- | ------------- |
+| Kiwori Black  | `#171717` | Outlines, contours, glyph lines |
+| Soft White    | `#FFFFFF` | Sticker card bases, highlights |
+| Pastel Pink   | `#FF8FB1` | Social, entertainment, multimedia accents |
+| Pastel Purple | `#B982FF` | Creative tools, developer utilities |
+| Pastel Blue   | `#65C7FF` | Core system tools, web browsers, default folders |
+| Pastel Cyan   | `#5ED8D2` | Messaging, network, transfer utilities |
+| Pastel Green  | `#73D69A` | Audio, productivity, success states |
+| Pastel Yellow | `#FFE477` | Standard folders, warnings, archives |
+| Pastel Orange | `#FFAA6B` | Graphics, warnings, warm UI accents |
+| Pastel Red    | `#FF6B6B` | Error states, recording media, delete actions |
+
+*Third-party application icons should adapt their official brand hues to fit the Kiwori pastel balance and bold outline aesthetic.*
+
+---
+
+## 6. Technical SVG Requirements
+
+All SVG source files must be clean, lightweight, and valid:
+1. Strip proprietary editor namespaces (e.g. Inkscape/Sodipodi metadata).
+2. Embedded raster images (base64 PNG/JPEG) are strictly prohibited.
+3. External file references (`href="file://..."`) are strictly prohibited.
+4. Minimal SVG root element:
    ```xml
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-     <!-- Path & bentuk vector -->
+     <!-- Vector paths and shapes -->
    </svg>
    ```

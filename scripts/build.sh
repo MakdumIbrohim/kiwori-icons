@@ -16,26 +16,26 @@ log_pass() {
 
 echo "=== Kiwori Icons Build System ==="
 
-# 1. Pastikan direktori tujuan ada
-log_info "Mempersiapkan direktori build..."
+# 1. Ensure target category directories exist
+log_info "Preparing build directories..."
 CATEGORIES=("apps" "actions" "devices" "places" "mimetypes" "categories" "status" "emblems")
 
 for cat in "${CATEGORIES[@]}"; do
     mkdir -p "$SCALABLE_DIR/$cat"
 done
 
-# 2. Bersihkan file SVG lama di theme/Kiwori/scalable/
-log_info "Membersihkan artefak build lama..."
+# 2. Clean old SVG files in theme/Kiwori/scalable/
+log_info "Cleaning legacy build artifacts..."
 find "$SCALABLE_DIR" -type f -name "*.svg" -delete 2>/dev/null || true
 find "$SCALABLE_DIR" -type l -name "*.svg" -delete 2>/dev/null || true
 
-# 3. Salin icon SVG dari src/ ke theme/Kiwori/scalable/
-log_info "Menyinkronkan icon dari src/ ke theme/Kiwori/scalable/..."
+# 3. Synchronize SVG icons from src/ to theme/Kiwori/scalable/
+log_info "Synchronizing icons from src/ to theme/Kiwori/scalable/..."
 COPIED_COUNT=0
 
 for cat in "${CATEGORIES[@]}"; do
     if [[ -d "$SRC_DIR/$cat" ]]; then
-        # Copy regular svg files and symlinks
+        # Copy regular svg files and preserve symlinks
         while IFS= read -r -d '' file; do
             cp -P "$file" "$SCALABLE_DIR/$cat/"
             COPIED_COUNT=$((COPIED_COUNT + 1))
@@ -43,11 +43,11 @@ for cat in "${CATEGORIES[@]}"; do
     fi
 done
 
-log_info "Total icon yang disinkronkan: $COPIED_COUNT"
+log_info "Total icons synchronized: $COPIED_COUNT"
 
-# 4. Validasi hasil build
-log_info "Menjalankan validasi hasil build..."
+# 4. Validate build output
+log_info "Executing build validation suite..."
 "$ROOT_DIR/scripts/validate.sh"
 
-log_pass "Build Kiwori Icons selesai dengan sukses."
+log_pass "Kiwori Icons build completed successfully."
 echo "Output: $THEME_DIR"

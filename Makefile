@@ -5,11 +5,11 @@ all: build
 help:
 	@echo "Kiwori Icons Build Interface"
 	@echo "Usage:"
-	@echo "  make build       - Sinkronkan icon src/ ke theme/Kiwori dan validasi"
-	@echo "  make install     - Pasang tema ke ~/.local/share/icons/Kiwori"
-	@echo "  make uninstall   - Copot tema dari ~/.local/share/icons/Kiwori"
-	@echo "  make validate    - Jalankan linter dan validator aset tema"
-	@echo "  make clean       - Bersihkan file build/artefak sementara"
+	@echo "  make build       - Synchronize src/ icons to theme/Kiwori and validate"
+	@echo "  make install     - Install theme to ~/.local/share/icons/Kiwori"
+	@echo "  make uninstall   - Remove theme from ~/.local/share/icons/Kiwori"
+	@echo "  make validate    - Run static linter and validation checks"
+	@echo "  make clean       - Remove build artifacts and temporary files"
 
 build:
 	@./scripts/build.sh
@@ -27,4 +27,4 @@ clean:
 	@find theme/Kiwori/scalable -type f -name "*.svg" -delete 2>/dev/null || true
 	@find theme/Kiwori/scalable -type l -name "*.svg" -delete 2>/dev/null || true
 	@rm -rf build/ dist/ *.tar.gz *.tar.xz
-	@echo "Artefak build berhasil dibersihkan."
+	@echo "Build artifacts successfully cleaned."

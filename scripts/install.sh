@@ -7,7 +7,7 @@ SOURCE_DIR="$ROOT_DIR/theme/$THEME_NAME"
 
 SYSTEM_INSTALL=false
 
-# Argumen parsing
+# Argument parsing
 while [[ $# -gt 0 ]]; do
     case "$1" in
         --system|-s)
@@ -17,12 +17,12 @@ while [[ $# -gt 0 ]]; do
         -h|--help)
             echo "Usage: ./scripts/install.sh [OPTIONS]"
             echo "Options:"
-            echo "  --system, -s    Pasang secara system-wide ke /usr/share/icons/ (memerlukan root)"
-            echo "  --help, -h      Tampilkan bantuan ini"
+            echo "  --system, -s    Install system-wide into /usr/share/icons/ (requires root)"
+            echo "  --help, -h      Display this help dialog"
             exit 0
             ;;
         *)
-            echo "Opsi tidak dikenal: $1"
+            echo "Unknown option: $1"
             exit 1
             ;;
     esac
@@ -30,7 +30,7 @@ done
 
 if [[ "$SYSTEM_INSTALL" == true ]]; then
     if [[ $EUID -ne 0 ]]; then
-        echo "Error: Instalasi system-wide memerlukan hak akses root (sudo)."
+        echo "Error: System-wide installation requires root privileges (sudo)."
         exit 1
     fi
     TARGET_DIR="/usr/share/icons/$THEME_NAME"
@@ -40,22 +40,22 @@ else
     BASE_DIR="$HOME/.local/share/icons"
 fi
 
-echo "=== Memasang $THEME_NAME Icons ==="
+echo "=== Installing $THEME_NAME Icons ==="
 
 if [[ ! -d "$SOURCE_DIR" || ! -f "$SOURCE_DIR/index.theme" ]]; then
-    echo "Peringatan: Direktori theme/Kiwori belum dibangun. Menjalankan build..."
+    echo "Notice: theme/Kiwori is not built yet. Executing build..."
     "$ROOT_DIR/scripts/build.sh"
 fi
 
 mkdir -p "$BASE_DIR"
 
-echo "Menghapus versi sebelumnya di $TARGET_DIR..."
+echo "Removing previous version at $TARGET_DIR..."
 rm -rf "$TARGET_DIR"
 
-echo "Menyalin file tema ke $TARGET_DIR..."
+echo "Copying theme files to $TARGET_DIR..."
 cp -r "$SOURCE_DIR" "$TARGET_DIR"
 
-echo "Memperbarui icon cache sistem..."
+echo "Updating desktop icon cache..."
 if command -v gtk-update-icon-cache >/dev/null 2>&1; then
     gtk-update-icon-cache -q -t -f "$TARGET_DIR" || true
 fi
@@ -67,8 +67,8 @@ elif command -v kbuildsycoca5 >/dev/null 2>&1; then
 fi
 
 echo
-echo "Kiwori Icons berhasil dipasang!"
-echo "Lokasi: $TARGET_DIR"
+echo "Kiwori Icons installed successfully!"
+echo "Location: $TARGET_DIR"
 echo
-echo "Untuk mengaktifkan di KDE Plasma:"
-echo "  System Settings -> Colors & Themes -> Icons -> Pilih 'Kiwori'"
+echo "To activate on KDE Plasma:"
+echo "  System Settings -> Colors & Themes -> Icons -> Select 'Kiwori'"

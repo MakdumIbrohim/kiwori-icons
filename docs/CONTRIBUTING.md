@@ -1,47 +1,46 @@
-# Panduan Kontribusi Kiwori Icons
+# Contributing to Kiwori Icons
 
-Terima kasih atas ketertarikan Anda untuk berkontribusi pada pengembangan **Kiwori Icons**!
+Thank you for your interest in contributing to **Kiwori Icons**!
 
 ---
 
-## 1. Alur Kerja Git (Git Workflow)
+## 1. Git Workflow
 
-1. **Fork** repository `kiwori-icons`.
-2. Buat branch fitur baru dari branch `dev`:
+1. **Fork** the `kiwori-icons` repository.
+2. Create a new topic branch branching off `dev`:
    ```bash
    git checkout dev
    git pull origin dev
-   git checkout -b feature/nama-fitur
+   git checkout -b feature/your-feature-name
    ```
-   *Contoh branch: `feature/add-spotify`, `feature/folder-icons`.*
-3. Lakukan perubahan pada direktori `src/`.
-4. Uji validasi secara lokal:
+   *Examples: `feature/add-spotify`, `feature/folder-icons`.*
+3. Add or modify SVG assets inside `src/`.
+4. Validate and build locally:
    ```bash
    make validate
    make build
    ```
-5. Commit perubahan Anda dengan pesan commit yang jelas:
+5. Commit your changes with a clear, descriptive English commit message following Conventional Commits:
    ```bash
-   git commit -m "feat(apps): tambahkan icon spotify"
+   git commit -m "feat(apps): add spotify icon"
    ```
-6. Dorong (push) ke fork Anda dan buat **Pull Request** yang menargetkan branch **`dev`** (bukan `main`).
+6. Push to your fork and submit a **Pull Request** targeting the **`dev`** branch (not `main`).
 
 ---
 
-## 2. Checklist Kualitas (Definition of Done)
+## 2. Quality Checklist (Definition of Done)
 
-Sebelum mengajukan PR, pastikan icon Anda memenuhi kriteria berikut:
-* [ ] Format berkas adalah `.svg` murni pada kanvas `256×256` px (`viewBox="0 0 256 256"`).
-* [ ] Menggunakan outline tebal gelap `#171717` dengan sudut/ujung membulat (`round`).
-* [ ] Mengikuti palet warna Kiwori dan mempertahankan bentuk rounded/playful.
-* [ ] Logo aplikasi tetap mudah dikenali.
-* [ ] Tidak memiliki gambar raster bitmap yang disematkan (`data:image`).
-* [ ] Nama berkas huruf kecil, pemisah hyphen, dan sesuai konvensi FreeDesktop.
-* [ ] Lolos eksekusi `./scripts/validate.sh` tanpa error.
-* [ ] Berhasil diuji tampil pada desktop environment (terutama KDE Plasma).
+Before opening a pull request, ensure your icons meet these requirements:
+* [ ] Authored in clean SVG on a `256×256` canvas (`viewBox="0 0 256 256"`).
+* [ ] Follows the Kiwori Design System (`#171717` bold outline, rounded geometry, pastel colors).
+* [ ] Application logos remain immediately recognizable.
+* [ ] Contains no embedded raster bitmaps (no base64 `data:image`).
+* [ ] Filename is lowercase with hyphen delimiters and `.svg` extension.
+* [ ] Passes `./scripts/validate.sh` with zero errors.
+* [ ] Tested on a live Linux desktop environment (e.g. KDE Plasma or GNOME).
 
 ---
 
-## 3. Menghubungi & Request Icon
+## 3. Submitting Icon Requests
 
-Jika Anda bukan desainer tetapi ingin meminta dukungan icon aplikasi baru, silakan buka issue baru menggunakan template **Icon Request**.
+If you are not a designer but wish to request an icon, please open a GitHub issue using the **Icon Request** template.
