@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- 1. Master Page Base Sheet -->
+  <path d="M 52 14
+           L 184 14
+           L 222 52
+           L 222 222
+           C 222 234, 212 242, 198 242
+           L 58 242
+           C 44 242, 34 234, 34 222
+           L 34 34
+           C 34 20, 44 14, 52 14 Z"
+        fill="#FFFFFF" stroke="#171717" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- 2. Compact Folded Top-Right Corner (Tucked away, no collision) -->
+  <path d="M 184 14 L 184 52 L 222 52 Z" fill="#E4E9F0" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
+
+  <!-- 3. Bottom Color Accent Bar -->
+  <path d="M 34 180 L 34 222 C 34 234, 44 242, 58 242 L 198 242 C 212 242, 222 234, 222 222 L 222 180 Z"
+        fill="#22A055" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
+
+  <!-- 4. Center Emblem (Centered at y=118, with ample clearance) -->
+  
+  <g transform="translate(128, 118)">
+    <rect x="-44" y="-28" width="88" height="56" rx="14" fill="#22A055" stroke="#171717" stroke-width="10"/>
+    <text x="0" y="10" font-family="sans-serif" font-weight="900" font-size="26" fill="#FFFFFF" text-anchor="middle">XLS</text>
+  </g>
+</svg>

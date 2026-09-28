@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="cone_orange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFAB4A"/>
+      <stop offset="100%" stop-color="#F0720A"/>
+    </linearGradient>
+    <linearGradient id="cone_dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFB254"/>
+      <stop offset="100%" stop-color="#EC6A06"/>
+    </linearGradient>
+    <linearGradient id="stripe_w" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E8EDF2"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#D9DFE6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Square Base Platform (Bottom) -->
+  <!-- x=22..234, y=190..242, rx=14, stroke=13 -->
+  <rect x="22" y="190" width="212" height="52" rx="14" fill="url(#cone_dark)" stroke="#171717" stroke-width="13" stroke-linejoin="round"/>
+  <!-- Base top surface ellipse detail -->
+  <ellipse cx="128" cy="190" rx="82" ry="10" fill="#FFC175" stroke="#171717" stroke-width="7"/>
+
+  <!-- 2. Lower Cone Body (Widest triangle stacking on base) -->
+  <!-- Base width 148px (x=54..202), top width 92px where stripe begins -->
+  <path d="M 92 86 L 164 86 L 200 196 L 56 196 Z"
+        fill="url(#cone_orange)" stroke="#171717" stroke-width="13" stroke-linejoin="round"/>
+
+  <!-- 3. Lower Reflective Stripe (Horizontal white band) -->
+  <path d="M 78 142 L 178 142 L 190 172 L 66 172 Z"
+        fill="url(#stripe_w)" stroke="#171717" stroke-width="10" stroke-linejoin="round"/>
+
+  <!-- 4. Upper Cone Body (Narrower triangle stacking on lower body) -->
+  <path d="M 106 30 L 150 30 L 166 96 L 90 96 Z"
+        fill="url(#cone_orange)" stroke="#171717" stroke-width="13" stroke-linejoin="round"/>
+
+  <!-- 5. Upper Reflective Stripe -->
+  <path d="M 102 54 L 154 54 L 160 76 L 96 76 Z"
+        fill="url(#stripe_w)" stroke="#171717" stroke-width="10" stroke-linejoin="round"/>
+
+  <!-- 6. Cone Tip Cap (Rounded top) -->
+  <rect x="106" y="12" width="44" height="26" rx="10" fill="#E8550A" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
+
+  <path d="M 102 110 L 96 140" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+</svg>

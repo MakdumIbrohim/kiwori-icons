@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <!-- Dark modern navy squircle background -->
+    <linearGradient id="cli_card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2B2E3D"/>
+      <stop offset="100%" stop-color="#14151D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Dark Squircle Card Base -->
+  <rect x="18" y="18" width="220" height="220" rx="56" fill="url(#cli_card)" stroke="#171717" stroke-width="14" stroke-linejoin="round"/>
+  <!-- Top-left cartoon highlight shine -->
+  <path d="M 46 94 C 54 62, 80 38, 114 30" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- 2. Giant Bold Prompt Chevron > -->
+  <path d="M 52 82 L 118 132 L 52 182" fill="none" stroke="#171717" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 52 82 L 118 132 L 52 182" fill="none" stroke="#5ED8D2" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Inner shine highlight on prompt -->
+  <path d="M 56 86 L 112 132 L 56 178" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+
+  <!-- 3. Giant Blinking Cursor Block █ -->
+  <rect x="146" y="96" width="56" height="72" rx="14" fill="#FFE477" stroke="#171717" stroke-width="14" stroke-linejoin="round"/>
+  <rect x="156" y="106" width="12" height="52" rx="6" fill="#FFFFFF" opacity="0.6"/>
+</svg>
