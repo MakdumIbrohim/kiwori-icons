@@ -28,23 +28,6 @@ echo "Setting active application launcher to '$CHOICE'..."
 cp "$TARGET_SVG" "$ROOT_DIR/src/places/start-here.svg"
 cp "$TARGET_SVG" "$ROOT_DIR/src/apps/distributor-logo.svg"
 
-# Create standard launcher symlinks in places/
-cd "$ROOT_DIR/src/places"
-ln -sf start-here.svg start-here-kde.svg
-ln -sf start-here.svg start-here-kde-plasma.svg
-ln -sf start-here.svg start-here-kubuntu.svg
-ln -sf start-here.svg start-here-ubuntu.svg
-ln -sf start-here.svg start-here-arch.svg
-ln -sf start-here.svg start-here-debian.svg
-
-# Create standard launcher symlinks in apps/
-cd "$ROOT_DIR/src/apps"
-ln -sf distributor-logo.svg distributor-logo-kde.svg
-ln -sf distributor-logo.svg distributor-logo-kubuntu.svg
-ln -sf distributor-logo.svg distributor-logo-ubuntu.svg
-ln -sf distributor-logo.svg distributor-logo-arch.svg
-ln -sf distributor-logo.svg distributor-logo-debian.svg
-
 cd "$ROOT_DIR"
 echo "Rebuilding and updating installed theme..."
 make build
