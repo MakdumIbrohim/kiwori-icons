@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- 1. Master Page Base Sheet -->
+  <path d="M 52 14
+           L 184 14
+           L 222 52
+           L 222 222
+           C 222 234, 212 242, 198 242
+           L 58 242
+           C 44 242, 34 234, 34 222
+           L 34 34
+           C 34 20, 44 14, 52 14 Z"
+        fill="#FFFFFF" stroke="#171717" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- 2. Compact Folded Top-Right Corner -->
+  <path d="M 184 14 L 184 52 L 222 52 Z" fill="#E4E9F0" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
+
+  <!-- 3. Bottom Color Accent Bar (Pastel Purple #B982FF) -->
+  <path d="M 34 180 L 34 222 C 34 234, 44 242, 58 242 L 198 242 C 212 242, 222 234, 222 222 L 222 180 Z"
+        fill="#B982FF" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
+
+  <!-- 4. Official Markdown Badge Emblem -->
+  <g transform="translate(81.8, 71.8) scale(3.85)">
+    <path d="M22.27 19.385H1.73A1.73 1.73 0 010 17.655V6.345a1.73 1.73 0 011.73-1.73h20.54A1.73 1.73 0 0124 6.345v11.308a1.73 1.73 0 01-1.73 1.731zM5.769 15.923v-4.5l2.308 2.885 2.307-2.885v4.5h2.308V8.078h-2.308l-2.307 2.885-2.308-2.885H3.46v7.847zM21.232 12h-2.309V8.077h-2.307V12h-2.308l3.461 4.039z" fill="#171717" stroke="#171717" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+</svg>
