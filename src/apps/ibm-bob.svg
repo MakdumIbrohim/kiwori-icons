@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <!-- Helm gradient: biru kiri → ungu kanan (diagonal, sama seperti asli) -->
+    <linearGradient id="helm_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#4B7BFF"/>
+      <stop offset="100%" stop-color="#B45FE8"/>
+    </linearGradient>
+    <!-- Kepala: putih bersih ke abu sangat muda -->
+    <linearGradient id="face_grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E4E9F0"/>
+    </linearGradient>
+    <!-- Telinga: abu muda -->
+    <linearGradient id="ear_grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#D8DDE6"/>
+      <stop offset="100%" stop-color="#C2C8D4"/>
+    </linearGradient>
+    <!-- clip kubah helm: hanya bagian atas (potong di brim) -->
+    <clipPath id="dome_clip">
+      <rect x="0" y="0" width="256" height="126"/>
+    </clipPath>
+  </defs>
+
+  <!-- ══════════════════════════════════
+       1. BRIM HELM (melebar ke kiri-kanan)
+       Brim adalah base lebar di bawah kubah
+  ══════════════════════════════════ -->
+  <path d="M 36 126 Q 36 116, 48 116 L 208 116 Q 220 116, 220 126 L 220 132 Q 220 138, 208 138 L 48 138 Q 36 138, 36 132 Z"
+        fill="url(#helm_grad)" stroke="#2A2A2A" stroke-width="13"
+        stroke-linejoin="round"/>
+
+  <!-- ══════════════════════════════════
+       2. KUBAH HELM (dome besar)
+       Lebih lebar dari kepala, clip di y=126
+  ══════════════════════════════════ -->
+  <path d="M 44 126 Q 44 44, 128 38 Q 212 44, 212 126 Z"
+        fill="url(#helm_grad)" stroke="#2A2A2A" stroke-width="13"
+        stroke-linejoin="round" stroke-linecap="round"
+        clip-path="url(#dome_clip)"/>
+
+  <!-- Garis dekorasi horizontal di dalam kubah (seperti asli) -->
+  <path d="M 66 104 Q 128 108, 190 104"
+        fill="none" stroke="#2A2A2A" stroke-width="7"
+        stroke-linecap="round" opacity="0.55"/>
+
+  <!-- ══════════════════════════════════
+       3. TAB / KNOB di atas helm
+       Persegi kecil di puncak helm
+  ══════════════════════════════════ -->
+  <rect x="112" y="34" width="32" height="28" rx="6" ry="6"
+        fill="url(#helm_grad)" stroke="#2A2A2A" stroke-width="11"
+        stroke-linejoin="round"/>
+
+  <!-- ══════════════════════════════════
+       4. TELINGA kiri & kanan
+       Kotak kecil abu, tertempel di sisi kepala
+  ══════════════════════════════════ -->
+  <rect x="28" y="150" width="22" height="34" rx="7" ry="7"
+        fill="url(#ear_grad)" stroke="#2A2A2A" stroke-width="11"
+        stroke-linejoin="round"/>
+  <rect x="206" y="150" width="22" height="34" rx="7" ry="7"
+        fill="url(#ear_grad)" stroke="#2A2A2A" stroke-width="11"
+        stroke-linejoin="round"/>
+
+  <!-- ══════════════════════════════════
+       5. KEPALA (rounded rect putih, landscape)
+  ══════════════════════════════════ -->
+  <rect x="48" y="130" width="160" height="110" rx="30" ry="30"
+        fill="url(#face_grad)" stroke="#2A2A2A" stroke-width="13"
+        stroke-linejoin="round"/>
+
+  <!-- ══════════════════════════════════
+       6. MATA — lingkaran hitam besar, highlight putih
+       Langsung hitam di atas wajah putih (tidak ada ring)
+  ══════════════════════════════════ -->
+  <!-- Mata kiri -->
+  <circle cx="98"  cy="170" r="28" fill="#2A2A2A" stroke="#2A2A2A" stroke-width="3"/>
+  <circle cx="106" cy="161" r="8"  fill="#FFFFFF"/>
+
+  <!-- Mata kanan -->
+  <circle cx="158" cy="170" r="28" fill="#2A2A2A" stroke="#2A2A2A" stroke-width="3"/>
+  <circle cx="166" cy="161" r="8"  fill="#FFFFFF"/>
+
+  <!-- ══════════════════════════════════
+       7. MULUT — senyum tipis kecil
+  ══════════════════════════════════ -->
+  <path d="M 112 212 Q 128 226, 144 212"
+        fill="none" stroke="#2A2A2A" stroke-width="8"
+        stroke-linecap="round"/>
+
+  <!-- ══════════════════════════════════
+       8. RE-STROKE kepala & brim (outline bersih)
+  ══════════════════════════════════ -->
+  <rect x="48" y="130" width="160" height="110" rx="30" ry="30"
+        fill="none" stroke="#2A2A2A" stroke-width="13"
+        stroke-linejoin="round"/>
+  <path d="M 36 126 Q 36 116, 48 116 L 208 116 Q 220 116, 220 126 L 220 132 Q 220 138, 208 138 L 48 138 Q 36 138, 36 132 Z"
+        fill="none" stroke="#2A2A2A" stroke-width="13"
+        stroke-linejoin="round"/>
+</svg>
