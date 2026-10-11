@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <!-- Kiwori Palette Colors: Pink #FF8FB1, Yellow #FFE477, Cyan #5ED8D2 -->
+    <linearGradient id="kr_pink" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF8FB1"/>
+      <stop offset="100%" stop-color="#E85E86"/>
+    </linearGradient>
+    <linearGradient id="kr_yellow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE477"/>
+      <stop offset="100%" stop-color="#FFBD4A"/>
+    </linearGradient>
+    <linearGradient id="kr_cyan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5ED8D2"/>
+      <stop offset="100%" stop-color="#1BAAA2"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(0, 0) scale(4.0)">
+    <!-- Base Circular Wheel Frame -->
+    <circle cx="32" cy="32" r="28" fill="#171717"/>
+
+    <!-- 1. Pink Sector (Top) -->
+    <path d="M 56.243,18.01 A 28,28 0 0 0 17.98,7.75 A 28,28 0 0 0 7.70,18.13 L 32,32 Z"
+          fill="url(#kr_pink)" stroke="#171717" stroke-width="3.2" stroke-linejoin="round"/>
+
+    <!-- 2. Yellow Sector (Right & Bottom-Right) -->
+    <path d="M 56.243,18.01 L 32,32 L 31.87,60 A 28,28 0 0 0 46,56.28 A 28,28 0 0 0 56.24,18.01 Z"
+          fill="url(#kr_yellow)" stroke="#171717" stroke-width="3.2" stroke-linejoin="round"/>
+
+    <!-- 3. Cyan Sector (Left & Bottom-Left) -->
+    <path d="M 32,32 L 7.70,18.13 A 28,28 0 0 0 7.73,46.02 A 28,28 0 0 0 31.87,60 Z"
+          fill="url(#kr_cyan)" stroke="#171717" stroke-width="3.2" stroke-linejoin="round"/>
+
+    <!-- Master Outer Rim -->
+    <circle cx="32" cy="32" r="28" fill="none" stroke="#171717" stroke-width="3.5"/>
+
+    <!-- 4. Paint Splash Arc (Blue stroke) -->
+    <path d="M 43.8,37.68 C 28,51.45 13.54,39.15 11.44,34.33 C 12.68,42.7 18.41,50.18 27.07,53.06 C 33.61,55.24 47.07,53.79 48.08,47.13 Z"
+          fill="#38A9FF" stroke="#171717" stroke-width="2.2" stroke-linejoin="round"/>
+
+    <!-- 5. Paintbrush Ferrule & Bristle -->
+    <path d="M 43.55,39.64 C 42.2,40.25 42.34,40.69 41.14,40.5 C 40.32,40.37 33.15,35.03 33.15,35.03 C 32.78,34.17 33.22,32.99 34.04,32.06 C 34.8,31.08 35.88,30.42 36.81,30.59 L 43.91,37.15 C 44.34,38.27 43.88,38.22 43.55,39.64 Z"
+          fill="#CBD5E1" stroke="#171717" stroke-width="2.0" stroke-linejoin="round"/>
+    <!-- Brush Tip (Bristles) -->
+    <path d="M 44.88,51.37 C 49.96,48.51 51.16,43.36 49.15,39.71 C 47.59,36.88 45.03,36.35 43.26,37.72 C 41.51,39.07 41.35,40.69 41.87,42.3 C 42.94,45.58 47.52,47.99 44.88,51.37 Z"
+          fill="#171717" stroke="#171717" stroke-width="2.0" stroke-linejoin="round"/>
+
+    <!-- 6. Paintbrush Wooden Handle -->
+    <path d="M 37.52,34.73 C 33.19,38.71 24.87,32.4 21.36,28.43 C 17.75,24.35 4.26,10.59 3.28,9.69 C 2.29,8.8 1.5,7.7 2.38,6.6 C 3.28,5.53 4.54,6.06 5.63,6.83 C 6.72,7.6 23.14,17.78 27.93,20.43 C 32.59,23.0 40.57,29.73 37.52,34.73 Z"
+          fill="#FFAA6B" stroke="#171717" stroke-width="2.4" stroke-linejoin="round"/>
+  </g>
+</svg>
