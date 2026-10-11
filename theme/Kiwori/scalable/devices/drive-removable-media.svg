@@ -23,9 +23,6 @@
   <path d="M 82 120 L 174 120" stroke="#171717" stroke-width="9" stroke-linecap="round"/>
   <path d="M 82 142 L 174 142" stroke="#171717" stroke-width="9" stroke-linecap="round"/>
 
-  <!-- Body Highlight -->
-  <path d="M 78 86 C 84 78, 96 78, 110 78" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
-
   <!-- Lanyard Loop (Bottom) -->
   <path d="M 104 222 L 104 238 C 104 246, 114 250, 128 250 C 142 250, 152 246, 152 238 L 152 222" fill="none" stroke="#171717" stroke-width="13" stroke-linejoin="round"/>
   <!-- Status Activity LED -->

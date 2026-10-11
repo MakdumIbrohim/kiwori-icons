@@ -40,6 +40,4 @@
 
   <!-- 6. Cone Tip Cap (Rounded top) -->
   <rect x="106" y="12" width="44" height="26" rx="10" fill="#E8550A" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
-
-  <path d="M 102 110 L 96 140" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
 </svg>
