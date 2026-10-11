@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
   <defs>
     <linearGradient id="big_gear_grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#5ED8D2"/>
-      <stop offset="100%" stop-color="#24A39D"/>
+      <stop offset="0%" stop-color="#E8EDF2"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
     </linearGradient>
     <linearGradient id="small_gear_grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFAA6B"/>
-      <stop offset="100%" stop-color="#F27A2F"/>
+      <stop offset="0%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#64748B"/>
     </linearGradient>
   </defs>
 
