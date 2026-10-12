@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <g transform="translate(0, 3)">
+
   <!-- Kiwori-chan: chibi anime mascot in Kiwori art style -->
   <!-- Back hair -->
   <ellipse cx="128" cy="112" rx="90" ry="95" fill="#B982FF" stroke="#171717" stroke-width="14"/>
@@ -54,4 +56,6 @@
   <!-- Smile -->
   <path d="M 118 158 Q 128 172 138 158 Q 128 164 118 158 Z" fill="#171717" stroke="#171717" stroke-width="3" stroke-linejoin="round"/>
   <ellipse cx="128" cy="164" rx="4.5" ry="3" fill="#FF8FB1"/>
+
+  </g>
 </svg>

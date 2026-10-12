@@ -1,10 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <defs>
+<defs>
     <linearGradient id="eth_plug" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#5ED8D2"/>
       <stop offset="100%" stop-color="#1BAAA2"/>
     </linearGradient>
   </defs>
+  <g transform="translate(-12.75, -25.45) scale(1.10)">
+
+  
 
   <!-- RJ45 Ethernet Connector Body -->
   <path d="M 52 38
@@ -39,4 +42,6 @@
   <line x1="168" y1="88" x2="88" y2="168" stroke="#171717" stroke-width="22" stroke-linecap="round"/>
   <line x1="88" y1="88" x2="168" y2="168" stroke="#FF6B6B" stroke-width="14" stroke-linecap="round"/>
   <line x1="168" y1="88" x2="88" y2="168" stroke="#FF6B6B" stroke-width="14" stroke-linecap="round"/>
+
+  </g>
 </svg>

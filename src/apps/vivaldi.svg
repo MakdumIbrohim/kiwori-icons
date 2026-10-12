@@ -7,7 +7,7 @@
   </defs>
 
   <!-- Maximized Red Squircle Base (Edge to edge like folder/cards) -->
-  <rect x="8" y="8" width="240" height="240" rx="60" fill="url(#vi_bg)" stroke="#171717" stroke-width="14" stroke-linejoin="round"/>
+  <rect x="12" y="12" width="232" height="232" rx="58" fill="url(#vi_bg)" stroke="#171717" stroke-width="14" stroke-linejoin="round"/>
 
   <!-- Large Center White Circle -->
   <circle cx="128" cy="128" r="86" fill="#FFFFFF" stroke="#171717" stroke-width="12"/>

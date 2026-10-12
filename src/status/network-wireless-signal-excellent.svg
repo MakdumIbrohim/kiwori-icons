@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <g transform="translate(-10.2, -19.4) scale(1.08)">
+
   <!-- Arc 3 (Top / Largest) -->
   <path d="M 32 86 A 148 148 0 0 1 224 86" fill="none" stroke="#171717" stroke-width="32" stroke-linecap="round"/>
   <path d="M 32 86 A 148 148 0 0 1 224 86" fill="none" stroke="#5ED8D2" stroke-width="20" stroke-linecap="round"/>
@@ -13,4 +15,6 @@
 
   <!-- Base Center Dot -->
   <circle cx="128" cy="214" r="20" fill="#5ED8D2" stroke="#171717" stroke-width="12"/>
+
+  </g>
 </svg>

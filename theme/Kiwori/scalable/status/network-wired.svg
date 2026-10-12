@@ -1,10 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <defs>
+<defs>
     <linearGradient id="eth_plug" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#5ED8D2"/>
       <stop offset="100%" stop-color="#1BAAA2"/>
     </linearGradient>
   </defs>
+  <g transform="translate(-12.75, -25.45) scale(1.10)">
+
+  
 
   <!-- RJ45 Ethernet Connector Body -->
   <path d="M 52 38
@@ -33,4 +36,6 @@
 
   <!-- Central Locking Tab -->
   <path d="M 88 106 L 168 106 L 154 164 L 102 164 Z" fill="#FFFFFF" stroke="#171717" stroke-width="10" stroke-linejoin="round"/>
+
+  </g>
 </svg>

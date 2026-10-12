@@ -18,7 +18,7 @@
     </linearGradient>
   </defs>
 
-  <g transform="translate(-25.6, -25.6) scale(4.8)">
+  <g transform="translate(-38.4, -38.4) scale(5.2)">
     <path d="M 48 32 L 16 42 L 16 54 L 48 44 Z" fill="url(#sub_bot)" stroke="#171717" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
     <path d="M 46.545 32.455 L 29.092 37.908 L 46.545 44.455 L 48 44 L 48 32 Z" fill="url(#sub_sh)" stroke="#171717" stroke-width="2.2" stroke-linejoin="round"/>
     <path d="M 16 20 L 48 32 L 48 44 L 16 32 Z" fill="url(#sub_diag)" stroke="#171717" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
