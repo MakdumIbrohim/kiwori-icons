@@ -50,7 +50,7 @@ To keep issues organized and easy to track, please use the appropriate title pre
 | **Icon Request** | `[ICON REQUEST] <App / Format Name>` | Request a new application, file format, or folder icon |
 | **Bug Report** | `[BUG] <Short Description>` | Report a broken, cut-off, or miscolored icon |
 | **Symlink Request** | `[SYMLINK REQUEST] <App Name>` | Request a missing `.desktop` or Flatpak alias for an existing icon |
-| **Launcher Request** | `[LAUNCHER REQUEST] <Distro Name>` | Request a new distribution start-menu icon for `launchers/` |
+| **Launcher Request** | `[LAUNCHER REQUEST] <Distro Name>` | Request a new distribution start-menu icon for `distro-launchers/` |
 
 ### Examples:
 * `[ICON REQUEST] Steam`

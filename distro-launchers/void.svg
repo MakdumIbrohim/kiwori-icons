@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <!-- Void Linux Green Gradient -->
+    <linearGradient id="void_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#478061"/>
+      <stop offset="100%" stop-color="#264D37"/>
+    </linearGradient>
+  </defs>
+  <circle cx="128" cy="128" r="114" fill="url(#void_bg)" stroke="#171717" stroke-width="14"/>
+  <g transform="translate(3.2, 3.2) scale(3.9)">
+    <path d="M 32,9.9999999 A 22,22 0 0 0 19.079834,14.218994 L 24.02124,19.1604 A 15.125,15.125 0 0 1 32,16.875 15.125,15.125 0 0 1 47.125,32 15.125,15.125 0 0 1 44.831542,39.970703 l 4.944093,4.944092 A 22,22 0 0 0 54,32 22,22 0 0 0 32,9.9999999 Z" fill="#FFFFFF" stroke="#171717" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 14.224365,19.085205 A 22,22 0 0 0 9.9999999,32 22,22 0 0 0 32,54 22,22 0 0 0 44.920166,49.781006 L 39.97876,44.8396 A 15.125,15.125 0 0 1 32,47.125 15.125,15.125 0 0 1 16.875,32 15.125,15.125 0 0 1 19.168458,24.029297 Z" fill="#FFFFFF" stroke="#171717" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="32" cy="32" r="8" fill="#FFFFFF" stroke="#171717" stroke-width="2.5"/>
+  </g>
+</svg>

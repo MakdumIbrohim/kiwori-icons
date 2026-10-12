@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <!-- Kiwori Palette: Cyan-Blue Shield #5ED8D2 to #2488E8 -->
+    <linearGradient id="her_shield" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5ED8D2"/>
+      <stop offset="100%" stop-color="#2488E8"/>
+    </linearGradient>
+    <!-- Center Sword Steel Metal #434B5D to #20232C -->
+    <linearGradient id="her_sword" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#434B5D"/>
+      <stop offset="100%" stop-color="#20232C"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(0, 0) scale(4.0)">
+    <!-- 1. Heroic Shield with Bold Comic Outline -->
+    <path d="M 36,5 C 35.001,4.5937 32.999,4 32,4 31.001,4 28.999,4.5937 28,5 L 12,11 C 10.852,11.461 10,12.076 10,13 10,14 10.23,14.493 10.5,15.5 L 20,49 C 20,49 20.404,50.161 21,51 21.546,51.769 23,53 23,53 L 30,59 C 30,59 31.255,60 32,60 32.745,60 34,59 34,59 L 41,53 C 41,53 42.432,51.752 43,51 43.592,50.216 44,49 44,49 L 53.5,15.5 C 53.817,14.51 54,14 54,13 54,12.116 53.36,11.487 52,11 Z" fill="url(#her_shield)" stroke="#171717" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 2. Central Heroic Sword -->
+    <path d="M 32,12 28,18 30.5,42.5 32,44 33.5,42.5 36,18 Z M 25,44 24,46 25,48 30,47.5 31,46 30,44.5 Z M 39,44 34,44.5 33,46 34,47.5 39,48 40,46 Z M 32,48 30.5,49.5 30,54 32,55 34,54 33.5,49.5 Z" fill="url(#her_sword)" stroke="#171717" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

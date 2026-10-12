@@ -1,6 +1,6 @@
 ---
 name: Distro Launcher Request
-about: Request a new distribution start-menu icon for launchers/
+about: Request a new distribution start-menu icon for distro-launchers/
 title: "[LAUNCHER REQUEST] "
 labels: launcher
 assignees: ''

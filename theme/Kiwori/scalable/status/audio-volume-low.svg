@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <g transform="translate(4, -12) scale(1.10)">
+
   
     <!-- Speaker Body -->
     <path d="M 30 100
@@ -15,4 +17,6 @@
   <!-- Sound Wave 1 (Small - Cyan) -->
   <path d="M 142 102 A 36 36 0 0 1 142 154" fill="none" stroke="#171717" stroke-width="16" stroke-linecap="round"/>
   <path d="M 142 102 A 36 36 0 0 1 142 154" fill="none" stroke="#5ED8D2" stroke-width="9" stroke-linecap="round"/>
+
+  </g>
 </svg>

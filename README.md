@@ -33,6 +33,10 @@ Pastel cartoon icon theme for Linux.
 
 <img src="preview/launchers.png" width="550" alt="Distro launcher icons" />
 
+## System Status
+
+<img src="preview/audio-status.png" width="300" alt="Audio volume indicator icons" />
+
 </div>
 
 ---
@@ -62,7 +66,7 @@ Update to latest version anytime:
 ./scripts/update.sh   # or 'make update'
 ```
 
-Switch the start-menu launcher icon (ubuntu, kubuntu, arch, debian, kde, fedora, kiwori):
+Switch the start-menu launcher icon (ubuntu, kubuntu, xubuntu, lubuntu, debian, mint, arch, fedora, opensuse, manjaro, pop-os, nixos, gentoo, void, kde, kiwori):
 
 ```bash
 ./scripts/set-launcher.sh arch

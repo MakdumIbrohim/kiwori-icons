@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+<defs>
+    <linearGradient id="eth_plug" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5ED8D2"/>
+      <stop offset="100%" stop-color="#1BAAA2"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-12.75, -25.45) scale(1.10)">
+
+  
+
+  <!-- RJ45 Ethernet Connector Body -->
+  <path d="M 52 38
+           L 204 38
+           C 214 38, 222 46, 222 56
+           L 222 174
+           C 222 186, 214 194, 204 194
+           L 156 194
+           L 156 226
+           C 156 236, 148 242, 138 242
+           L 118 242
+           C 108 242, 100 236, 100 226
+           L 100 194
+           L 52 194
+           C 42 194, 34 186, 34 174
+           L 34 56
+           C 34 46, 42 38, 52 38 Z"
+        fill="#323644" stroke="#171717" stroke-width="14" stroke-linejoin="round"/>
+
+  <!-- Top Contact Pins -->
+  <rect x="62" y="38" width="16" height="34" rx="4" fill="#94A3B8" stroke="#171717" stroke-width="7"/>
+  <rect x="92" y="38" width="16" height="34" rx="4" fill="#94A3B8" stroke="#171717" stroke-width="7"/>
+  <rect x="122" y="38" width="16" height="34" rx="4" fill="#94A3B8" stroke="#171717" stroke-width="7"/>
+  <rect x="152" y="38" width="16" height="34" rx="4" fill="#94A3B8" stroke="#171717" stroke-width="7"/>
+  <rect x="182" y="38" width="16" height="34" rx="4" fill="#94A3B8" stroke="#171717" stroke-width="7"/>
+
+  <!-- Central Locking Tab -->
+  <path d="M 88 106 L 168 106 L 154 164 L 102 164 Z" fill="#FFFFFF" stroke="#171717" stroke-width="10" stroke-linejoin="round"/>
+
+  <!-- Disconnected Red Cross -->
+  <line x1="88" y1="88" x2="168" y2="168" stroke="#171717" stroke-width="22" stroke-linecap="round"/>
+  <line x1="168" y1="88" x2="88" y2="168" stroke="#171717" stroke-width="22" stroke-linecap="round"/>
+  <line x1="88" y1="88" x2="168" y2="168" stroke="#FF6B6B" stroke-width="14" stroke-linecap="round"/>
+  <line x1="168" y1="88" x2="88" y2="168" stroke="#FF6B6B" stroke-width="14" stroke-linecap="round"/>
+
+  </g>
+</svg>

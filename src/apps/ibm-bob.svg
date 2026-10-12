@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <defs>
+<defs>
     <!-- Helm gradient: biru kiri → ungu kanan (diagonal, sama seperti asli) -->
     <linearGradient id="helm_grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%"   stop-color="#4B7BFF"/>
@@ -20,6 +20,9 @@
       <rect x="0" y="0" width="256" height="126"/>
     </clipPath>
   </defs>
+  <g transform="translate(-12.90, -23.40) scale(1.105)">
+
+  
 
   <!-- ══════════════════════════════════
        1. BRIM HELM (melebar ke kiri-kanan)
@@ -97,4 +100,6 @@
   <path d="M 36 126 Q 36 116, 48 116 L 208 116 Q 220 116, 220 126 L 220 132 Q 220 138, 208 138 L 48 138 Q 36 138, 36 132 Z"
         fill="none" stroke="#2A2A2A" stroke-width="13"
         stroke-linejoin="round"/>
+
+  </g>
 </svg>

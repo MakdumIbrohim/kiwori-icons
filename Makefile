@@ -10,7 +10,7 @@ help:
 	@echo "  make update              - Pull latest commits from GitHub and reinstall"
 	@echo "  make uninstall           - Remove theme from ~/.local/share/icons/Kiwori"
 	@echo "  make validate            - Run static linter and validation checks"
-	@echo "  make set-launcher NAME=  - Switch start menu icon (e.g. NAME=ubuntu, arch, kde, kiwori)"
+	@echo "  make set-launcher NAME=  - Switch start menu icon (e.g. NAME=ubuntu, arch, manjaro, nixos, kiwori)"
 	@echo "  make clean               - Remove build artifacts and temporary files"
 
 build:

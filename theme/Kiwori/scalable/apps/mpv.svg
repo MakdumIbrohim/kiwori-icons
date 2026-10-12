@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <!-- mpv Purple Gradient -->
+    <linearGradient id="mpv_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9E5EE6"/>
+      <stop offset="100%" stop-color="#5B2496"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular Badge -->
+  <circle cx="128" cy="128" r="114" fill="url(#mpv_bg)" stroke="#171717" stroke-width="14"/>
+
+  <!-- mpv small circle dot + large play triangle -->
+  <g fill="#FFFFFF" stroke="#171717" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Small Left Dot -->
+    <circle cx="80" cy="128" r="18"/>
+    <!-- Play Triangle -->
+    <path d="M 118 78 C 118 73 124 70 128 73 L 194 122 C 198 125 198 131 194 134 L 128 183 C 124 186 118 183 118 178 Z"/>
+  </g>
+</svg>

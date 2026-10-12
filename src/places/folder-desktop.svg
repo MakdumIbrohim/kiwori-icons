@@ -47,9 +47,6 @@
            L 36 246
            C 22 246, 12 238, 12 224 Z"
         fill="url(#folder_flap)" stroke="#171717" stroke-width="13" stroke-linejoin="round"/>
-
-  <!-- 4. Front Flap Highlight -->
-  <path d="M 38 96 L 94 96" stroke="#FFE6A8" stroke-width="7" stroke-linecap="round"/>
   <!-- Big Desktop Emblem -->
   <g transform="translate(128, 178)">
     <path d="M -20 34 L 20 34" stroke="#171717" stroke-width="10" stroke-linecap="round"/>
