@@ -2,11 +2,11 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-LAUNCHERS_DIR="$ROOT_DIR/launchers"
+LAUNCHERS_DIR="$ROOT_DIR/distro-launchers"
 
 if [[ $# -eq 0 ]]; then
     echo "Usage: ./scripts/set-launcher.sh <variant>"
-    echo "Available variants in launchers/:"
+    echo "Available variants in distro-launchers/:"
     for f in "$LAUNCHERS_DIR"/*.svg; do
         basename "$f" .svg
     done

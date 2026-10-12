@@ -66,7 +66,7 @@ Update to latest version anytime:
 ./scripts/update.sh   # or 'make update'
 ```
 
-Switch the start-menu launcher icon (ubuntu, kubuntu, arch, debian, kde, fedora, kiwori):
+Switch the start-menu launcher icon (ubuntu, kubuntu, xubuntu, lubuntu, debian, mint, arch, fedora, opensuse, manjaro, pop-os, nixos, gentoo, void, kde, kiwori):
 
 ```bash
 ./scripts/set-launcher.sh arch
