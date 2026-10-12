@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="nv_green_front" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#73D69A"/>
+      <stop offset="100%" stop-color="#24B362"/>
+    </linearGradient>
+    <linearGradient id="nv_green_side" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4E996C"/>
+      <stop offset="100%" stop-color="#196336"/>
+    </linearGradient>
+    <linearGradient id="nv_cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5ED8D2"/>
+      <stop offset="100%" stop-color="#2488E8"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(15.2, 15.2) scale(9.4)">
+    <path d="M2.214 4.954v13.615L7.655 24V10.314L3.312 3.845 2.214 4.954z" fill="url(#nv_green_side)" stroke="#171717" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M7.213 22.934l-4.557-4.548V5.136l.59-.596 3.967 5.908v12.485z" fill="url(#nv_green_front)" stroke="#171717" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M7.431 .001l12.998 19.835-3.637 3.637L3.787 3.683 7.43 0z" fill="url(#nv_cyan)" stroke="#171717" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M21.786 17.523l-.862.937-4.24-6.376V0l5.068 5.092.034 13.385z" fill="url(#nv_green_front)" stroke="#171717" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>
