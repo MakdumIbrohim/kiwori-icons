@@ -17,7 +17,8 @@
   <line x1="68" y1="206" x2="188" y2="206" stroke="#171717" stroke-width="8" stroke-linecap="round" opacity="0.22"/>
 
   <!-- 4. Unboxed Direct Central Emblem -->
-  <g transform="translate(128, 144)">
-    <text x="0" y="0" font-family="monospace" font-weight="900" font-size="58" fill="#FFFFFF" stroke="#171717" stroke-width="12" stroke-linejoin="round" paint-order="stroke fill" text-anchor="middle">{ }</text>
+  <g transform="translate(128, 146)">
+    <text x="0" y="0" font-family="monospace" font-weight="900" font-size="58" stroke="#171717" stroke-width="14" stroke-linejoin="round" text-anchor="middle">{ }</text>
+    <text x="0" y="0" font-family="monospace" font-weight="900" font-size="58" fill="#FFFFFF" text-anchor="middle">{ }</text>
   </g>
 </svg>
