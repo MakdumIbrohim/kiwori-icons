@@ -35,7 +35,7 @@ Pastel cartoon icon theme for Linux.
 
 ## System Status
 
-<img src="preview/status.png" width="480" alt="System status and tray icons" />
+<img src="preview/audio-status.png" width="300" alt="Audio volume indicator icons" />
 
 </div>
 
