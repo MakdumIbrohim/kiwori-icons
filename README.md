@@ -33,6 +33,10 @@ Pastel cartoon icon theme for Linux.
 
 <img src="preview/launchers.png" width="550" alt="Distro launcher icons" />
 
+## System Status
+
+<img src="preview/status.png" width="480" alt="System status and tray icons" />
+
 </div>
 
 ---

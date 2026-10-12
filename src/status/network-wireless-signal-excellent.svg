@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Arc 3 (Top / Largest) -->
+  <path d="M 32 86 A 148 148 0 0 1 224 86" fill="none" stroke="#171717" stroke-width="32" stroke-linecap="round"/>
+  <path d="M 32 86 A 148 148 0 0 1 224 86" fill="none" stroke="#5ED8D2" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Arc 2 (Middle) -->
+  <path d="M 64 130 A 102 102 0 0 1 192 130" fill="none" stroke="#171717" stroke-width="32" stroke-linecap="round"/>
+  <path d="M 64 130 A 102 102 0 0 1 192 130" fill="none" stroke="#5ED8D2" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Arc 1 (Small) -->
+  <path d="M 96 174 A 56 56 0 0 1 160 174" fill="none" stroke="#171717" stroke-width="32" stroke-linecap="round"/>
+  <path d="M 96 174 A 56 56 0 0 1 160 174" fill="none" stroke="#5ED8D2" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Base Center Dot -->
+  <circle cx="128" cy="214" r="20" fill="#5ED8D2" stroke="#171717" stroke-width="12"/>
+</svg>

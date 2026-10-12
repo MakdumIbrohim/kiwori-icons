@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bt_blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4FA8FF"/>
+      <stop offset="100%" stop-color="#1B75BC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shaped Oval Badge -->
+  <path d="M 128 18
+           C 180 18, 216 66, 216 128
+           C 216 190, 180 238, 128 238
+           C 76 238, 40 190, 40 128
+           C 40 66, 76 18, 128 18 Z"
+        fill="url(#bt_blue)" stroke="#171717" stroke-width="14" stroke-linejoin="round"/>
+
+  <!-- Bluetooth Rune B Vector -->
+  <path d="M 128 42 L 128 214 M 82 86 L 174 170 L 128 214 L 128 42 L 174 86 L 82 170"
+        fill="none" stroke="#171717" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 128 42 L 128 214 M 82 86 L 174 170 L 128 214 L 128 42 L 174 86 L 82 170"
+        fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
