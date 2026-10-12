@@ -26,15 +26,22 @@
           fill="#FFFFFF" stroke="#171717" stroke-width="2.4" stroke-linejoin="round"/>
     <circle cx="34" cy="29" r="3.2" fill="#171717"/>
 
+    
     <!-- 5. Paintbrush in Mouth -->
-    <!-- Wooden Ferrule Handle -->
     <path d="M 48.91,49.39 L 50.12,46.98 C 45.63,43.7 37.24,40.36 37.24,40.36 L 35.91,41.09 C 35.91,41.09 43.53,47.85 48.91,49.39 Z"
           fill="#FFAA6B" stroke="#171717" stroke-width="2.2" stroke-linejoin="round"/>
-    <!-- Metal Clip -->
     <path d="M 48.96,44.96 L 48.33,45.37 C 47.74,45.69 47.27,46.23 46.89,46.86 C 46.45,47.89 46.27,48.54 46.35,49.55 L 47.26,49.39 C 47.26,49.39 52.03,50.76 54.29,51.48 L 54.55,50.97 L 55.48,49.17 L 48.96,45.83 Z"
           fill="#CBD5E1" stroke="#171717" stroke-width="2.0" stroke-linejoin="round"/>
-    <!-- Brush Tip Bristles -->
     <path d="M 62,58 C 60.4,52.79 59.83,48.65 55.64,49.02 C 52.26,49.32 52.03,53.95 55.51,55.23 C 58.88,56.46 62,58 62,58 Z"
           fill="#171717" stroke="#171717" stroke-width="2.2" stroke-linejoin="round"/>
+
+    <!-- 6. Wilber's Smooth Biting Mouth Line (Smooth smile line + upper lip) -->
+    <path d="M 19.5 41.0
+             C 25.0 44.5, 31.0 44.5, 37.0 41.0"
+          fill="none" stroke="#171717" stroke-width="2.8" stroke-linecap="round"/>
+    <!-- Upper lip fold biting over the brush handle -->
+    <path d="M 34.5 39.5
+             C 37.0 38.5, 39.0 40.5, 37.8 42.5"
+          fill="none" stroke="#171717" stroke-width="2.5" stroke-linecap="round"/>
   </g>
 </svg>

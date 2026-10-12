@@ -17,6 +17,6 @@
           fill="#FFFFFF" stroke="#171717" stroke-width="2.6" stroke-linejoin="round"/>
 
     <!-- 3. Blue Core Eye Circle -->
-    <circle cx="39.004" cy="37" r="6.0" fill="#38A9FF" stroke="#171717" stroke-width="2.2"/>
+    <circle cx="39.004" cy="37" r="6.0" fill="#65C7FF" stroke="#171717" stroke-width="2.2"/>
   </g>
 </svg>
