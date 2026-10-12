@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <!-- Steam Official Blue-Navy Gradient -->
+    <linearGradient id="steam_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#244B7A"/>
+      <stop offset="100%" stop-color="#14243B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular Badge -->
+  <circle cx="128" cy="128" r="114" fill="url(#steam_bg)" stroke="#171717" stroke-width="14"/>
+
+  <!-- Mechanical Steam Crank in Pure White with Comic Outline -->
+  <g transform="translate(0, 0) scale(4.0)">
+    <!-- Connecting rod plate -->
+    <path d="M 30.6,23.6 L 34.8,33.4 L 44.7,34.8 L 29.2,44.6 L 29.2,37.6 L 22.2,37.6 Z" fill="#FFFFFF" stroke="#171717" stroke-width="2.5" stroke-linejoin="round"/>
+
+    <!-- Large Upper Joint Ring -->
+    <path d="M 40 15 A 11 11 0 0 0 29 26 A 11 11 0 0 0 40 37 A 11 11 0 0 0 51 26 A 11 11 0 0 0 40 15 z M 40 19 A 7 7 0 0 1 47 26 A 7 7 0 0 1 40 33 A 7 7 0 0 1 33 26 A 7 7 0 0 1 40 19 z"
+          fill="#FFFFFF" stroke="#171717" stroke-width="2.0" stroke-linejoin="round"/>
+    <circle cx="40" cy="26" r="5" fill="#FFFFFF" stroke="#171717" stroke-width="1.8"/>
+
+    <!-- Connecting Rod to Piston -->
+    <path d="M 4.05 31.08 A 28 28 0 0 0 4 32 A 28 28 0 0 0 4.94 39.12 L 22.09 46.7 A 3.5 3.5 0 1 0 24.91 40.3 L 4.05 31.08 z"
+          fill="#FFFFFF" stroke="#171717" stroke-width="2.0" stroke-linejoin="round"/>
+
+    <!-- Lower Joint Ring -->
+    <path d="M 23.5 35 A 8.5 8.5 0 0 0 15 43.5 A 8.5 8.5 0 0 0 23.5 52 A 8.5 8.5 0 0 0 32 43.5 A 8.5 8.5 0 0 0 23.5 35 z M 23.5 38 A 5.5 5.5 0 0 1 29 43.5 A 5.5 5.5 0 0 1 23.5 49 A 5.5 5.5 0 0 1 18 43.5 A 5.5 5.5 0 0 1 23.5 38 z"
+          fill="#FFFFFF" stroke="#171717" stroke-width="2.0" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Master Outer Outline on Circle -->
+  <circle cx="128" cy="128" r="114" fill="none" stroke="#171717" stroke-width="14"/>
+</svg>
