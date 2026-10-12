@@ -27,7 +27,7 @@ Pastel cartoon icon theme for Linux.
 
 ## File Types
 
-<img src="preview/mimetypes.png" width="700" alt="File type icons" />
+<img src="preview/mimetypes.png" width="550" alt="File type icons" />
 
 ## Launchers
 
