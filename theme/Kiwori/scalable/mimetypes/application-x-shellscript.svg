@@ -1,24 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
   <defs>
+    <!-- Cool Metallic / Silver Pastel Gradient -->
     <linearGradient id="sh_grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#5BE0D8"/>
-      <stop offset="100%" stop-color="#38BFB7"/>
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
     </linearGradient>
   </defs>
 
-  <!-- 1. Master Page Base Sheet (Full Pastel) -->
+  <!-- 1. Master Page Base Sheet (Silver) -->
   <path d="M 52 14 L 184 14 L 222 52 L 222 222 C 222 234, 212 242, 198 242 L 58 242 C 44 242, 34 234, 34 222 L 34 34 C 34 20, 44 14, 52 14 Z" fill="url(#sh_grad)" stroke="#171717" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
 
   <!-- 2. Folded Top-Right Corner -->
-  <path d="M 184 14 L 184 52 L 222 52 Z" fill="#1B8C85" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
+  <path d="M 184 14 L 184 52 L 222 52 Z" fill="#94A3B8" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
 
   <!-- 3. Faint Text / Document Indentation Lines -->
   <line x1="68" y1="64" x2="130" y2="64" stroke="#171717" stroke-width="8" stroke-linecap="round" opacity="0.22"/>
   <line x1="68" y1="206" x2="188" y2="206" stroke="#171717" stroke-width="8" stroke-linecap="round" opacity="0.22"/>
 
-  <!-- 4. Unboxed Direct Central Emblem -->
-  <g transform="translate(128, 146)">
-    <text x="0" y="0" font-family="monospace" font-weight="900" font-size="54" stroke="#171717" stroke-width="14" stroke-linejoin="round" text-anchor="middle">&gt;_</text>
-    <text x="0" y="0" font-family="monospace" font-weight="900" font-size="54" fill="#FFFFFF" text-anchor="middle">&gt;_</text>
+  <!-- 4. Wide Bold Terminal Prompt >_ -->
+  <g transform="translate(128, 136)">
+    <!-- Layer 1: Black Comic Outlines -->
+    <path d="M -54 -34 L -6 0 L -54 34" fill="none" stroke="#171717" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="10" y="21" width="48" height="16" rx="8" fill="#171717" stroke="#171717" stroke-width="10" stroke-linejoin="round"/>
+    <!-- Layer 2: White Fill Overlayer -->
+    <path d="M -54 -34 L -6 0 L -54 34" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="10" y="21" width="48" height="16" rx="8" fill="#FFFFFF"/>
   </g>
 </svg>
