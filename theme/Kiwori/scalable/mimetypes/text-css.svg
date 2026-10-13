@@ -18,7 +18,8 @@
 
   <!-- 4. Official Logo Emblem -->
   <g transform="translate(78, 84) scale(4.16)">
-    <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0z" fill="#FFFFFF" stroke="#171717" stroke-width="1.8" stroke-linejoin="round" paint-order="stroke fill"/>
+    <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0z" fill="none" stroke="#171717" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0z" fill="#FFFFFF"/>
     <path d="M19.04 4.88H4.96l.5 5.5h11.2l-.5 5.5-4.16 1.15-4.16-1.15-.26-2.88H5.24l.48 5.28L12 19.88l6.28-1.74 1.26-13.26z" fill="#0B57A4" stroke="#171717" stroke-width="1.2" stroke-linejoin="round"/>
   </g>
 </svg>

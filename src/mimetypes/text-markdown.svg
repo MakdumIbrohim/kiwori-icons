@@ -1,12 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
   <defs>
+    <!-- Soft Pastel Purple Gradient -->
     <linearGradient id="md_grad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#D6B4FF"/>
       <stop offset="100%" stop-color="#B982FF"/>
     </linearGradient>
   </defs>
 
-  <!-- 1. Master Page Base Sheet (Full Pastel) -->
+  <!-- 1. Master Page Base Sheet -->
   <path d="M 52 14 L 184 14 L 222 52 L 222 222 C 222 234, 212 242, 198 242 L 58 242 C 44 242, 34 234, 34 222 L 34 34 C 34 20, 44 14, 52 14 Z" fill="url(#md_grad)" stroke="#171717" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
 
   <!-- 2. Folded Top-Right Corner -->
@@ -16,9 +17,11 @@
   <line x1="68" y1="64" x2="130" y2="64" stroke="#171717" stroke-width="8" stroke-linecap="round" opacity="0.22"/>
   <line x1="68" y1="206" x2="188" y2="206" stroke="#171717" stroke-width="8" stroke-linecap="round" opacity="0.22"/>
 
-  <!-- 4. Unboxed Direct Central Emblem -->
-  <g transform="translate(128, 146)">
-    <text x="0" y="0" font-family="sans-serif" font-weight="900" font-size="48" stroke="#171717" stroke-width="14" stroke-linejoin="round" text-anchor="middle">M ↓</text>
-    <text x="0" y="0" font-family="sans-serif" font-weight="900" font-size="48" fill="#FFFFFF" text-anchor="middle">M ↓</text>
+  <!-- 4. Official Markdown Mark (Proportional M & Arrow) -->
+  <g transform="translate(58.84, 68.46) scale(5.6)">
+    <!-- Layer 1: Bold Comic Outline -->
+    <path d="M5.769 15.923v-4.5l2.308 2.885 2.307-2.885v4.5h2.308V8.078h-2.308l-2.307 2.885-2.308-2.885H3.46v7.847z M21.232 12h-2.309V8.077h-2.307V12h-2.308l3.461 4.039z" fill="none" stroke="#171717" stroke-width="2.3" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- Layer 2: Solid White Fill -->
+    <path d="M5.769 15.923v-4.5l2.308 2.885 2.307-2.885v4.5h2.308V8.078h-2.308l-2.307 2.885-2.308-2.885H3.46v7.847z M21.232 12h-2.309V8.077h-2.307V12h-2.308l3.461 4.039z" fill="#FFFFFF"/>
   </g>
 </svg>

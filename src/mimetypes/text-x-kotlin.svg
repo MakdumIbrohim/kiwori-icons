@@ -18,6 +18,7 @@
 
   <!-- 4. Official Language Emblem -->
   <g transform="translate(80, 86) scale(4.0)">
-    <path d="M24 24H0V0h24L12 12Z" fill="#FFFFFF" stroke="#171717" stroke-width="1.6" stroke-linejoin="round" paint-order="stroke fill"/>
+    <path d="M24 24H0V0h24L12 12Z" fill="none" stroke="#171717" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M24 24H0V0h24L12 12Z" fill="#FFFFFF"/>
   </g>
 </svg>
