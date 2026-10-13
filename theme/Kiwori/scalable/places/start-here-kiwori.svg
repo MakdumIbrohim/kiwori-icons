@@ -1,61 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
   <g transform="translate(0, 3)">
+    <!-- Back hair (Kiwi Green) -->
+    <ellipse cx="128" cy="112" rx="90" ry="95" fill="#73D69A" stroke="#171717" stroke-width="14"/>
 
-  <!-- Kiwori-chan: chibi anime mascot in Kiwori art style -->
-  <!-- Back hair -->
-  <ellipse cx="128" cy="112" rx="90" ry="95" fill="#B982FF" stroke="#171717" stroke-width="14"/>
+    <!-- Body outfit (Kiwi Brown coat) -->
+    <rect x="84" y="188" width="88" height="52" rx="18" fill="#946132" stroke="#171717" stroke-width="12" stroke-linejoin="round"/>
+    <polygon points="112,188 144,188 128,206" fill="#E8F9EA" stroke="#171717" stroke-width="6"/>
 
-  <!-- Body outfit -->
-  <rect x="92" y="196" width="72" height="44" rx="16" fill="#65C7FF" stroke="#171717" stroke-width="12" stroke-linejoin="round"/>
+    <!-- Face -->
+    <ellipse cx="128" cy="132" rx="68" ry="58" fill="#FFE6A8" stroke="#171717" stroke-width="12"/>
 
-  <!-- Arms -->
-  <rect x="62" y="202" width="26" height="38" rx="13" fill="#FFE6A8" stroke="#171717" stroke-width="10"/>
-  <rect x="168" y="202" width="26" height="38" rx="13" fill="#FFE6A8" stroke="#171717" stroke-width="10"/>
+    <!-- Front bangs (Kiwi Green) -->
+    <path d="M 60 108 Q 62 48 128 44 Q 194 48 196 108 L 184 102 L 174 82 L 162 102 L 150 80 L 138 100 L 126 78 L 114 100 L 102 80 L 90 102 L 80 82 L 70 102 Z"
+          fill="#73D69A" stroke="#171717" stroke-width="10" stroke-linejoin="round"/>
 
-  <!-- Small folder held in front -->
-  <rect x="100" y="208" width="56" height="34" rx="9" fill="#FFBD4A" stroke="#171717" stroke-width="9" stroke-linejoin="round"/>
-  <rect x="100" y="200" width="24" height="12" rx="4" fill="#FFBD4A" stroke="#171717" stroke-width="7"/>
-  <rect x="88" y="206" width="30" height="12" rx="4" fill="#FFFFFF" stroke="#171717" stroke-width="6"/>
+    <!-- Side locks -->
+    <path d="M 72 100 C 64 128 64 160 76 186 C 80 193 90 191 91 183 C 84 164 84 132 90 106 Z"
+          fill="#73D69A" stroke="#171717" stroke-width="9" stroke-linejoin="round"/>
+    <path d="M 184 100 C 192 128 192 160 180 186 C 176 193 166 191 165 183 C 172 164 172 132 166 106 Z"
+          fill="#73D69A" stroke="#171717" stroke-width="9" stroke-linejoin="round"/>
 
-  <!-- Face -->
-  <ellipse cx="128" cy="132" rx="68" ry="58" fill="#FFE6A8" stroke="#171717" stroke-width="12"/>
+    <!-- Ahoge sprout with leaf -->
+    <path d="M 132 20 C 134 10 143 5 153 8" fill="none" stroke="#171717" stroke-width="11" stroke-linecap="round"/>
+    <path d="M 132 20 C 134 10 143 5 153 8" fill="none" stroke="#52B878" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="152" cy="7" rx="8" ry="5" transform="rotate(-30 152 7)" fill="#52B878" stroke="#171717" stroke-width="4"/>
 
-  <!-- Front bangs -->
-  <path d="M 60 108 Q 62 48 128 44 Q 194 48 196 108 L 184 102 L 174 82 L 162 102 L 150 80 L 138 100 L 126 78 L 114 100 L 102 80 L 90 102 L 80 82 L 70 102 Z"
-        fill="#B982FF" stroke="#171717" stroke-width="10" stroke-linejoin="round"/>
+    <!-- Kiwi slice hairpin -->
+    <circle cx="62" cy="150" r="14" fill="#946132" stroke="#171717" stroke-width="7"/>
+    <circle cx="62" cy="150" r="11" fill="#73D69A"/>
+    <circle cx="62" cy="150" r="4.5" fill="#FFF8D6"/>
+    <circle cx="58" cy="146" r="1.5" fill="#171717"/>
+    <circle cx="66" cy="146" r="1.5" fill="#171717"/>
+    <circle cx="62" cy="154" r="1.5" fill="#171717"/>
 
-  <!-- Side locks -->
-  <path d="M 72 100 C 64 128 64 160 76 186 C 80 193 90 191 91 183 C 84 164 84 132 90 106 Z"
-        fill="#B982FF" stroke="#171717" stroke-width="9" stroke-linejoin="round"/>
-  <path d="M 184 100 C 192 128 192 160 180 186 C 176 193 166 191 165 183 C 172 164 172 132 166 106 Z"
-        fill="#B982FF" stroke="#171717" stroke-width="9" stroke-linejoin="round"/>
+    <!-- Eyebrows -->
+    <path d="M 82 88 L 108 84" stroke="#171717" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 148 84 L 174 88" stroke="#171717" stroke-width="8" stroke-linecap="round"/>
 
-  <!-- Ahoge -->
-  <path d="M 132 20 C 134 10 143 5 153 8" fill="none" stroke="#171717" stroke-width="11" stroke-linecap="round"/>
-  <path d="M 132 20 C 134 10 143 5 153 8" fill="none" stroke="#B982FF" stroke-width="5" stroke-linecap="round"/>
+    <!-- Happy >< eyes -->
+    <path d="M 86 132 L 112 140 L 86 148" fill="none" stroke="#171717" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 170 132 L 144 140 L 170 148" fill="none" stroke="#171717" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- Kiwi hairpin -->
-  <circle cx="62" cy="150" r="12" fill="#73D69A" stroke="#171717" stroke-width="7"/>
-  <circle cx="62" cy="150" r="5" fill="#FFFFFF" stroke="#171717" stroke-width="4"/>
-  <circle cx="57" cy="145" r="1.5" fill="#171717"/>
-  <circle cx="67" cy="145" r="1.5" fill="#171717"/>
-  <circle cx="62" cy="155" r="1.5" fill="#171717"/>
+    <!-- Blush -->
+    <ellipse cx="78" cy="154" rx="9" ry="5.5" fill="#FF8FB1" fill-opacity="0.75"/>
+    <ellipse cx="178" cy="154" rx="9" ry="5.5" fill="#FF8FB1" fill-opacity="0.75"/>
 
-  <!-- Eyebrows -->
-  <path d="M 82 88 L 108 84" stroke="#171717" stroke-width="8" stroke-linecap="round"/>
-  <path d="M 148 84 L 174 88" stroke="#171717" stroke-width="8" stroke-linecap="round"/>
+    <!-- Smile -->
+    <path d="M 118 158 Q 128 172 138 158 Q 128 164 118 158 Z" fill="#171717" stroke="#171717" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="128" cy="164" rx="4.5" ry="3" fill="#FF8FB1"/>
 
-  <!-- Happy >< eyes -->
-  <path d="M 86 132 L 112 140 L 86 148" fill="none" stroke="#171717" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 170 132 L 144 140 L 170 148" fill="none" stroke="#171717" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Arms coming forward -->
+    <path d="M 84 196 Q 74 214 92 226" fill="none" stroke="#171717" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 172 196 Q 182 214 164 226" fill="none" stroke="#171717" stroke-width="12" stroke-linecap="round"/>
 
-  <!-- Blush -->
-  <ellipse cx="78" cy="154" rx="9" ry="5.5" fill="#FF8FB1" fill-opacity="0.65"/>
-  <ellipse cx="178" cy="154" rx="9" ry="5.5" fill="#FF8FB1" fill-opacity="0.65"/>
+    <!-- Big Kiwi Slice held with two hands -->
+    <ellipse cx="128" cy="218" rx="36" ry="26" fill="#946132" stroke="#171717" stroke-width="9"/>
+    <ellipse cx="128" cy="218" rx="31" ry="21" fill="#73D69A" stroke="#171717" stroke-width="6"/>
+    <!-- Creamy core -->
+    <ellipse cx="128" cy="218" rx="12" ry="8" fill="#FFFAD6"/>
+    <!-- Little kiwi seeds -->
+    <circle cx="114" cy="214" r="2" fill="#171717"/>
+    <circle cx="121" cy="210" r="2" fill="#171717"/>
+    <circle cx="135" cy="210" r="2" fill="#171717"/>
+    <circle cx="142" cy="214" r="2" fill="#171717"/>
+    <circle cx="140" cy="224" r="2" fill="#171717"/>
+    <circle cx="116" cy="224" r="2" fill="#171717"/>
 
-  <!-- Smile -->
-  <path d="M 118 158 Q 128 172 138 158 Q 128 164 118 158 Z" fill="#171717" stroke="#171717" stroke-width="3" stroke-linejoin="round"/>
-  <ellipse cx="128" cy="164" rx="4.5" ry="3" fill="#FF8FB1"/>
-
+    <!-- Left Hand Paw holding kiwi -->
+    <circle cx="92" cy="222" r="11" fill="#FFE6A8" stroke="#171717" stroke-width="8"/>
+    <!-- Right Hand Paw holding kiwi -->
+    <circle cx="164" cy="222" r="11" fill="#FFE6A8" stroke="#171717" stroke-width="8"/>
   </g>
 </svg>
