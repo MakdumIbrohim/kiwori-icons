@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="dart_grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8AE8FF"/>
+      <stop offset="100%" stop-color="#45CCF0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Master Page Base Sheet (Full Pastel) -->
+  <path d="M 52 14 L 184 14 L 222 52 L 222 222 C 222 234, 212 242, 198 242 L 58 242 C 44 242, 34 234, 34 222 L 34 34 C 34 20, 44 14, 52 14 Z" fill="url(#dart_grad)" stroke="#171717" stroke-width="13" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- 2. Folded Top-Right Corner -->
+  <path d="M 184 14 L 184 52 L 222 52 Z" fill="#0F9DBF" stroke="#171717" stroke-width="11" stroke-linejoin="round"/>
+
+  <!-- 3. Faint Text / Document Indentation Lines -->
+  <line x1="68" y1="64" x2="130" y2="64" stroke="#171717" stroke-width="8" stroke-linecap="round" opacity="0.22"/>
+  <line x1="68" y1="206" x2="188" y2="206" stroke="#171717" stroke-width="8" stroke-linecap="round" opacity="0.22"/>
+
+  <!-- 4. Official Language Emblem -->
+  <g transform="translate(80, 86) scale(4.0)">
+    <path d="M4.105 4.105S9.158 1.58 11.684.316a3.079 3.079 0 0 1 1.481-.315c.766.047 1.677.788 1.677.788L24 9.948v9.789h-4.263V24H9.789l-9-9C.303 14.5 0 13.795 0 13.105c0-.319.18-.818.316-1.105l3.789-7.895zm.679.679v11.787c.002.543.021 1.024.498 1.508L10.204 23h8.533v-4.263L4.784 4.784zm12.055-.678c-.899-.896-1.809-1.78-2.74-2.643-.302-.267-.567-.468-1.07-.462-.37.014-.87.195-.87.195L6.341 4.105l10.498.001z" fill="#FFFFFF" stroke="#171717" stroke-width="1.6" stroke-linejoin="round" paint-order="stroke fill"/>
+  </g>
+</svg>
